@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+	<option name="Standard">
+
+		<p name="frameColorA" value="#888888"/>
+		<p name="frameStyleA" value="Solid"/>
+		<p name="frameWidthA" value="5"/>
+		<p name="frameColorB" value="#888888"/>
+		<p name="frameStyleB" value="Solid"/>
+		<p name="frameWidthB" value="10"/>
+		
+	</option>
+
+	<option name="Special">
+
+		<p name="frameColorA" value="#00FF00"/>
+		<p name="frameStyleA" value="Solid"/>
+		<p name="frameWidthA" value="5"/>
+		<p name="frameColorB" value="#00FF00"/>
+		<p name="frameStyleB" value="Solid"/>
+		<p name="frameWidthB" value="10"/>
+		
+	</option>
+
+</theme>

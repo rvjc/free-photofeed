@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="true">
+
+	<option name="Standard">
+
+		<p name="footerColor" value="#888888"/>
+		<p name="footerStyle" value="Normal M"/>
+		<p name="footerHeight" value="30"/>
+		
+	</option>
+
+</theme>
