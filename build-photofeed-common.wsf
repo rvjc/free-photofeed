@@ -1,0 +1,19 @@
+<job id="JSUtility">
+
+<reference object="Scripting.FileSystemObject" />
+
+<script language="JScript" src="JSUtility_BatchCodeC.js" />
+<script language="JScript">
+
+Compact.Options={AddMissingSemicolons:true, LeaveNewLines:false, LeaveNewLineAndComment:false};
+OutputPreamble="// Copyright RVJ Callanan 2011 //";
+Operations={Validate:true, Obfuscate:false, Compact:true, Compress:false, StopOnWarning:false};
+
+InputFiles = ["photofeed-common-stripped.js"];
+OutputFile="photofeed-common.js";
+ReportFile="photofeed-common.html";
+JSUtilityBatch();
+
+</script>
+</job>
+
