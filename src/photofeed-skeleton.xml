@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--/// PHOTOFEED V2.17 - Copyright RVJ Callanan 2009-2017 // This is FREE software, released under a permissive MIT license ////-->
+
+<Module>
+
+<!--/////////////////////////////////////// MODULE PREFS /////////////////////////////////////////-->
+
+<ModulePrefs title="Photofeed"
+			 description="Display photos from a Google Sites file cabinet"
+			 author="RVJ Callanan"
+			 author_email="roger@rvjc.com"
+			 height="200"
+			 width="100%"
+			 scrolling="false"
+			 category="Tools">
+			 <Require feature="setprefs"/>
+			 <Require feature="dynamic-height"/>
+</ModulePrefs>
+	
+<!--//////////////////////////////////////// USER PREFS //////////////////////////////////////////-->
+
+<UserPref name="cfg"/>
+
+<!--//////////////////// DUMMY HOME VIEW TO SATSIFY PRECHECKER REQUIREMENTS //////////////////////-->
+
+<Content type="html" view="home"></Content>
+
+<!--/////////////////////////////////// CONFIGURATION VIEW ///////////////////////////////////////-->
+
+<Content type="html" view="configuration">
+<![CDATA[
+
+<style type="text/css">
+
+:focus
+{
+	outline:	none;
+}
+
+::-moz-focus-inner
+{
+	padding:	0;
+	border:		0;
+}
+
+table
+{
+	margin:			0px;
+	padding:		0px;
+	border-color:	#7f9db9;
+	border-collapse:collapse;
+	border-width:	0px;
+	border-spacing:	0px;
+	vertical-align:	top;
+	text-align:		left;
+	table-layout:	fixed;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-style:		normal;
+	font-weight:	normal;
+	font-size:		12px;	
+}
+
+tr,td
+{
+	margin:			0px;
+	padding:		0px;
+	border-width:	0px;
+	border-spacing:	0px;
+	vertical-align:	top;
+	text-align:		left;
+}
+
+span
+{
+	margin:			0px;
+	padding:		0px;
+	border-width:	0px;
+	border-spacing:	0px;
+}
+
+div
+{
+	float:			none;
+	margin:			0px;
+	padding:		0px;
+	border-width:	0px;
+	border-spacing:	0px;
+	vertical-align:	top;
+	text-align:		left;
+}
+
+input
+{
+	height:			20px;
+	margin:			0px;
+	padding:		0px 2px 0px 2px;
+	border-style:	solid;
+	border-width:	1px;
+	border-color:	#7f9db9;
+	vertical-align:	middle;
+	text-align:		left;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-style:		normal;
+	font-weight:	normal;
+	font-size:		12px;	
+}
+
+select
+{
+	margin:			0px;
+	padding:		0px;
+	border-style:	solid;
+	border-width:	1px;
+	border-color:	#7f9db9;
+	vertical-align:	middle;
+	text-align:		left;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-style:		normal;
+	font-weight:	normal;
+	font-size:		12px;	
+}
+
+button
+{
+	height:				20px;
+	margin:				0px;
+	padding:			0px 2px 0px 2px;
+	overflow:			visible;
+	border-style:		solid;
+	border-width:		1px;
+	border-color:		#7f9db9;
+	background-color:	#D7ECFF;
+	vertical-align:		middle;
+	text-align:			center;
+	font-family:		Arial, Helvetica, sans-serif;
+	font-style:			normal;
+	font-weight:		normal;
+	font-size:			11px;			
+}
+
+.check
+{
+	width:				14px;
+	Height:				14px;
+	margin:				0px;
+	padding:			0px;
+	border-style:		none;
+	border-width:		0px;
+}
+
+.mainTable
+{
+	width:			730px;
+	height:			378px;
+}
+
+.mainR1
+{
+	height:			378px;
+}
+
+.mainR1C1
+{
+	width:			200px;
+	height:			378px;
+}
+
+.mainR1C2
+{
+	width:			530px;
+	height:			378px;
+}
+
+.leftTable
+{
+	width:			200px;
+	height:			378px;
+}
+
+.leftR1
+{
+	height:			16px;
+	font-weight:	bold;
+}
+
+.leftR1C1
+{
+	width:			200px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.leftR2
+{
+	height:			25px;
+	font-weight:	bold;
+	font-size:		11px;
+	vertical-align:	middle;
+}
+
+.leftR2C1
+{
+	width:			200px;
+	height:			25px;
+	vertical-align:	middle;
+}
+
+.leftR3
+{
+	height:			155px;
+}
+
+.leftR3C1
+{
+	width:			200px;
+	height:			155px;
+}
+
+.leftR4
+{
+	height:			161px;
+}
+
+.leftR4C1
+{
+	width:			200px;
+	height:			161px;
+}
+
+.leftR5
+{
+	height:			21px;
+}
+
+.leftR5C1
+{
+	width:			200px;
+	height:			21px;
+}
+
+.rightTable
+{
+	width:			530px;
+	height:			378px;
+}
+
+.rightR1
+{
+	height:			41px;
+}
+
+.rightR1C1
+{
+	width:			530px;
+	height:			41px;
+}
+
+.rightR2
+{
+	height:			179px;
+}
+
+.rightR2C1
+{
+	width:			530px;
+	height:			179px;
+}
+
+.rightR3
+{
+	height:			158px;
+}
+
+.rightR3C1
+{
+	width:			530px;
+	height:			158px;
+}
+
+.topTable
+{
+	width:			530px;
+	height:			41px;
+}
+
+.topR1
+{
+	height:			16px;
+	font-weight:	bold;
+}
+
+.topR1C1
+{
+	width:			10px;
+	height:			16px;
+	font-size:		14px;
+	text-align:		center;
+	vertical-align:	middle;
+}
+
+.topR1C2
+{
+	width:			200px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.topR1C3
+{
+	width:			10px;
+	height:			16px;
+	font-size:		14px;
+	text-align:		center;
+	vertical-align:	middle;
+}
+
+.topR1C4
+{
+	width:			150px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.topR1C5
+{
+	width:			10px;
+	height:			16px;
+	font-size:		14px;
+	text-align:		center;
+	vertical-align:	middle;
+}
+
+.topR1C6
+{
+	width:			150px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.topR2
+{
+	height:			25px;
+	font-weight:	bold;
+	font-size:		11px;
+}
+
+.topR2C1
+{
+	width:			10px;
+	height:			16px;
+	font-size:		14px;
+	text-align:		center;
+	vertical-align:	middle;
+}
+
+.topR2C2
+{
+	width:			200px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.topR2C3
+{
+	width:			10px;
+	height:			16px;
+	font-size:		14px;
+	text-align:		center;
+	vertical-align:	middle;
+}
+
+.topR2C4
+{
+	width:			150px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.topR2C5
+{
+	width:			10px;
+	height:			16px;
+	font-size:		14px;
+	text-align:		center;
+	vertical-align:	middle;
+}
+
+.topR2C6
+{
+	width:			150px;
+	height:			16px;
+	vertical-align:	middle;
+}
+
+.midTable
+{
+	width:			530px;
+	height:			179px;
+}
+
+.midR1
+{
+	height:			179px;
+}
+
+.midR1C1
+{
+	width:			10px;
+	height:			179px;
+}
+
+.midR1C2
+{
+	width:			200px;
+	height:			179px;
+}
+
+.midR1C3
+{
+	width:			10px;
+	height:			179px;
+}
+
+.midR1C4
+{
+	width:			310px;
+	height:			179px;
+}
+
+.splitTable
+{
+	width:			200px;
+	height:			179px;
+}
+
+.splitR1
+{
+	height:			156px;
+}
+
+.splitR1C1
+{
+	width:			200px;
+	height:			156px;
+}
+
+.splitR2
+{
+	height:			23px;
+}
+
+.splitR2C1
+{
+	width:			200px;
+	height:			23px;
+}
+
+.tabTable
+{
+	width:			200px;
+	height:			23px;
+}
+
+.tabR1
+{
+	height:			23px;
+	font-weight:	bold;
+	font-size:		11px;
+}
+
+.tabR1C1
+{
+	width:			19px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		center;
+	border-top: 	1px solid #FFFFFF;
+}
+
+.tabR1C2
+{
+	width:			54px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		center;
+	background-color: #7f9db9;
+	border-top: 	1px solid #7f9db9;
+	border-left: 	1px solid #7f9db9;
+}
+
+.tabR1C3
+{
+	width:			60px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		center;
+	background-color: #FFFFFF;
+	border-top: 	1px solid #7f9db9;
+	border-left: 	1px solid #7f9db9;
+}
+
+.tabR1C4
+{
+	width:			44px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		center;
+	background-color: #FFFFFF;
+	border-top: 	1px solid #7f9db9;
+	border-left: 	1px solid #7f9db9;
+}
+
+.tabR1C5
+{
+	width:			19px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		center;
+	border-top: 	1px solid #FFFFFF;
+	border-left: 	1px solid #7f9db9;
+}
+
+.tabActive
+{
+	color:			#000000;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-style:		normal;
+	font-weight:	bold;
+	font-size:		11px;
+	text-decoration: none;
+}
+
+.tabInactive
+{
+	color:			#7f9db9;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-style:		normal;
+	font-weight:	bold;
+	font-size:		11px;
+	text-decoration: none;
+}
+
+.lowTable
+{
+	width:			530px;
+	height:			158px;
+}
+
+.lowR1
+{
+	height:			158px;
+}
+
+.lowR1C1
+{
+	width:			10px;
+	height:			158px;
+}
+
+.lowR1C2
+{
+	width:			516px;
+	height:			156px;
+	background-color: #7f9db9;
+	padding:		2px 0px 0px 4px;
+}
+
+.pageActive
+{
+	display:		block;
+	position:		relative;
+	left:			0;
+	top:			0;	
+	width:			516px;
+	height:			156px;
+	overflow:		hidden;
+}
+
+.pageInactive
+{
+	display:		none;
+	position:		relative;
+	left:			0;
+	top:			0;	
+	width:			516px;
+	height:			156px;
+	overflow:		hidden;
+}
+
+
+.pageTable
+{
+	width:			516px;
+	height:			156px;
+}
+
+.pageR1
+{
+	height:			156px;
+}
+
+.pageR1C1
+{
+	width:			258px;
+	height:			156px;
+}
+
+.pageR1C2
+{
+	width:			258px;
+	height:			156px;
+}
+
+.dualTable
+{
+	width:			516px;
+	height:			156px;
+}
+
+.dualRow
+{
+	height:			156px;
+}
+
+.dualR1C1
+{
+	width:			258px;
+	height:			156px;
+}
+
+.dualR1C2
+{
+	width:			258px;
+	height:			156px;
+}
+
+.paTable
+{
+	width:			516px;
+}
+
+.paRow
+{
+	height:			22px;
+}
+
+.paC1
+{
+	width:			65px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.paC2
+{
+	width:			346px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.paC3
+{
+	width:			75px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.paC4
+{
+	width:			20px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pbTable
+{
+	width:			258px;
+}
+
+.pbRow
+{
+	height:			22px;
+}
+
+.pbC1
+{
+	width:			45px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pbC2
+{
+	width:			88px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pbC3
+{
+	width:			45px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pbC4
+{
+	width:			70px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pcTable
+{
+	width:			258px;
+}
+
+.pcRow
+{
+	height:			22px;
+}
+
+.pcC1
+{
+	width:			45px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;	
+}
+
+.pcC2
+{
+	width:			70px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pcC3
+{
+	width:			20px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pcC4
+{
+	width:			88px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pcC5
+{
+	width:			30px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pdTable
+{
+	width:			258px;
+}
+
+.pdRow
+{
+	height:			22px;
+}
+
+.pdC1
+{
+	width:			45px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;	
+}
+
+.pdC2
+{
+	width:			70px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pdC3
+{
+	width:			20px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.pdC4
+{
+	width:			46px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;	
+}
+
+.pdC5
+{
+	width:			67px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.peTable
+{
+	width:			516px;
+}
+
+.peRow
+{
+	height:			22px;
+}
+
+.peC1
+{
+	width:			65px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.peC2
+{
+	width:			90px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.peC3
+{
+	width:			125px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.peC4
+{
+	width:			126px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.peC5
+{
+	width:			75px;
+	height:			22px;
+	vertical-align:	middle;
+	text-align:		right;
+	padding:		0px 5px 0px 0px;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.peC6
+{
+	width:			20px;
+	height:			22px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.srcTable
+{
+	width:			200px;
+	height:			16px;
+	color:			#7f9db9;
+}
+
+.srcR1
+{
+	height:			16px;
+}
+
+.srcC1
+{
+	width:			100px;
+	height:			16px;
+	vertical-align:	middle;
+	font-weight:	bold;
+}
+
+.srcC2
+{
+	width:			100px;
+	height:			16px;
+	vertical-align:	middle;
+	text-align:		right;
+	font-weight:	bold;
+}
+
+.cabTable
+{
+	width:			200px;
+	height:			16px;
+	color:			#7f9db9;
+}
+
+.cabR1
+{
+	height:			16px;
+}
+
+.cabC1
+{
+	width:			115px;
+	height:			16px;
+	vertical-align:	middle;
+	font-weight:	bold;
+}
+
+.cabC2
+{
+	width:			85px;
+	height:			16px;
+	vertical-align:	middle;
+	text-align:		right;
+	font-weight:	bold;
+}
+
+.selTable
+{
+	width:			150px;
+	color:			#7f9db9;
+}
+
+.selR1
+{
+	height:			16px;
+}
+
+.selC1
+{
+	width:			65px;
+	height:			16px;
+	vertical-align:	middle;
+	font-weight:	bold;
+}
+
+.selC2
+{
+	width:			85px;
+	height:			16px;
+	vertical-align:	middle;
+	text-align:		right;
+	font-weight:	bold;
+}
+
+.cfgTable
+{
+	width:			150px;
+	color:			#7f9db9;
+}
+
+.cfgRow
+{
+	height:			16px;
+}
+
+.cfgC1
+{
+	width:			65px;
+	height:			16px;
+	vertical-align:	middle;
+	font-weight:	bold;
+}
+
+.cfgC2
+{
+	width:			85px;
+	height:			16px;
+	vertical-align:	middle;
+	text-align:		right;
+	font-weight:	bold;
+}
+
+.butTable
+{
+	width:			200px;
+	height:			21px;
+}
+
+.butR1
+{
+	height:			21px;
+}
+
+.butR1C1
+{
+	width:			38px;
+	height:			21px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+
+.butR1C2
+{
+	width:			60px;
+	height:			21px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.butR1C3
+{
+	width:			60px;
+	height:			21px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.butR1C4
+{
+	width:			42px;
+	height:			21px;
+	vertical-align:	middle;
+	font-weight:	bold;
+	font-size: 		11px;
+}
+
+.but01
+{
+	width:				15px;
+	background-color:	#FFFFFF;
+}
+
+.inp02
+{
+	width:			25px;
+	font-family:	'Courier New',Courier,monospace;
+	font-size: 		13px;	
+}
+
+.inp03
+{
+	width:			32px;
+	font-family:	'Courier New',Courier,monospace;
+	font-size: 		13px;
+}
+
+.inp07
+{
+	width:			65px;
+	font-family:	'Courier New',Courier,monospace;
+	font-size: 		13px;
+}
+
+.inp09
+{
+	width:			83px;
+	font-family:	'Courier New',Courier,monospace;
+	font-size: 		13px;
+}
+
+.inp12
+{
+	width:			110px;
+	font-family:	'Courier New',Courier,monospace;
+	font-size: 		13px;
+}
+
+.inp40
+{
+	width:			330px;
+	font-family:	'Courier New',Courier,monospace;
+	font-size: 		13px;	
+}
+
+.sel07
+{
+	width:			65px;
+	height:			20px;
+	font-size:		11px;	
+}
+
+.sel12
+{
+	width:			83px;
+	height:			20px;
+	font-size:		11px;	
+}
+
+#cabSource
+{
+	width:			200px;
+}
+
+#srcStatus
+{
+	width:			85px;
+	height:			16px;
+	vertical-align:	middle;
+	overflow:		hidden;
+	text-align:		right;
+}
+
+#cabStatus
+{
+	width:			85px;
+	height:			16px;
+	overflow:		hidden;
+	text-align:		right;
+}
+
+#selStatus
+{
+	width:			85px;
+	height:			16px;
+	overflow:		hidden;
+	text-align:		right;
+}
+
+#cfgStatus
+{
+	width:			85px;
+	height:			16px;
+	overflow:		hidden;
+	text-align:		right;
+}
+
+#cabName
+{
+	width:			200px;
+}
+
+#leadPhotoName
+{
+	width:			150px;
+}
+
+#theme
+{
+	width:			150px;
+	height:			20px;
+	font-size:		11px;
+}
+
+#cabSelect
+{
+	width:			200px;
+}
+
+#leadSelect
+{
+	width:			200px;
+}
+
+#selBox
+{
+	width:			310px;
+	height:			179px;
+	overflow:		hidden;
+}
+
+#selWrapper
+{
+	float:			left;
+	border-width:	1px;
+	border-style:	dashed;
+	border-color:	#FFFFFF;
+}
+
+#sel
+{
+	font-size:		10px;
+	font-style:		normal;
+	font-variant:	normal;
+	font-weight:	normal;
+	overflow:		hidden;
+}
+
+#xmlButton
+{
+	width:			36px;
+}
+
+#refreshButton
+{
+	width:			58px;
+}
+
+#defaultsButton
+{
+	width:			58px;
+}
+
+#applyButton
+{
+	width:			42px;
+}
+
+</style>
+
+<table class="mainTable" border="0" cellpadding="0" cellspacing="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+
+	<tr class="mainR1">
+
+    	<td class="mainR1C1">
+
+    		<table class="leftTable" border="0" cellpadding="0" cellspacing="0">
+
+		    	<tr class="leftR1">
+					<td class="leftR1C1">
+			    		<table class="srcTable" border="0" cellpadding="0" cellspacing="0">
+			    			<tr class="srcR1">
+								<td class="srcC1">Source</td>
+								<td class="srcC2"><span id="srcStatus"></span></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr class="leftR2">
+					<td class="leftR2C1">
+						<input id="cabSource" type="text"/>
+					</td>
+				</tr>
+
+			  	<tr class="leftR3">
+			  		<td class="leftR3C1">
+			  			<select id="cabSelect" size="9"/>
+			  		</td>
+			  	</tr>
+
+			  	<tr class="leftR4">
+			  		<td class="leftR4C1">
+			  			<div id="swatch"</div>
+			  		</td>
+			  	</tr>
+
+			  	<tr class="leftR5">
+			    	<td class="leftR5C1">
+			      		<table class="butTable" border="0" cellpadding="0" cellspacing="0">
+			      	  		<tr class="butR1">
+			      	  			<td class="butR1C1"><button id="xmlButton" type="button">XML</button></td>
+				  				<td class="butR1C2"><button id="refreshButton" type="button">Refresh</button></td>
+				  				<td class="butR1C3"><button id="defaultsButton" type="button">Defaults</button></td>
+				  				<td class="butR1C4"><button id="applyButton" type="button">Apply</button></td>
+			    	  		</tr>
+			    		</table>
+			      	</td>
+			    </tr>
+
+    		</table>
+
+		</td>
+	
+    	<td class="mainR1C2">
+    	
+    		<table class="rightTable">
+
+    			<tr class="rightR1">
+
+    				<td class="rightR1C1">
+
+    					<table class="topTable" border="0" cellpadding="0" cellspacing="0">
+
+    						<tr class="topR1">
+
+    							<td class="topR1C1">&nbsp;</td>
+
+    							<td class="topR1C2">
+    								<table class="cabTable" border="0" cellpadding="0" cellspacing="0">
+    									<tr class="cabR1">
+    										<td class="cabC1">Cabinet</td>
+    										<td class="cabC2"><span id="cabStatus"></span></td>	
+										</tr>
+									</table>
+								</td>
+
+								<td class="topR1C3">&nbsp;</td>
+
+    							<td class="topR1C4">
+    								<table class="selTable" border="0" cellpadding="0" cellspacing="0">
+    									<tr class="selRow">
+	    									<td class="selC1">Lead</td>
+											<td class="selC2"><span id="selStatus"></span></td>
+										</tr>
+									</table>
+								</td>
+
+								<td class="topR1C5">&nbsp;</td>
+
+								<td class="topR1C6">
+    								<table class="cfgTable" border="0" cellpadding="0" cellspacing="0">
+    									<tr class="cfgRow">
+	    									<td class="cfgC1">Theme</td>
+											<td class="cfgC2"><span id="cfgStatus"></td>
+										</tr>
+									</table>
+								</td>
+
+							</tr>
+
+							<tr class="topR2">
+								<td class="topR2C1">/</td>
+    							<td class="topR2C2"><input id="cabName" type="text"/></td>
+								<td class="topR2C3">/</td>
+								<td class="topR2C4"><input id="leadPhotoName"type="text"/></td>
+								<td class="topR2C5">&nbsp;</td>
+								<td class="topR2C6"><select id="theme"/></td>
+							</tr>
+
+						</table>
+
+					</td>
+
+				</tr>
+
+				<tr class="rightR2">
+
+    				<td class="rightR2C1">
+
+    					<table class="midTable" border="0" cellpadding="0" cellspacing="0">
+
+    						<tr class="midR1">
+
+    							<td class="midR1C1">&nbsp;</td>
+
+    							<td class="midR1C2">
+
+    								<table class="splitTable" border="0" cellpadding="0" cellspacing="0">
+
+    									<tr class="splitR1">
+    										<td class="splitR1C1">
+    											<select id="leadSelect" size="9"/>
+    										</td>
+    									</tr>
+
+    									<tr class="splitR2">
+    										<td class="splitR2C1">
+
+    											<table class="tabTable" border="0" cellpadding="0" cellspacing="0">
+
+    												<tr class="tabR1">
+    													<td class="tabR1C1">&nbsp;</td>
+    													<td class="tabR1C2"><span class="tabActive" id="tabGeneral">General</span></td>
+    													<td class="tabR1C3"><span class="tabInActive" id="tabSelection">Selection</span></td>
+    													<td class="tabR1C4"><span class="tabInActive" id="tabSlides">Slides</span></td>
+    													<td class="tabR1C5">&nbsp;</td>
+    												</tr>
+
+    											</table>
+
+    										</td>
+    									</tr>
+
+    								</table>
+
+    							</td>
+
+    							<td class="midR1C3">&nbsp;</td>
+
+  								<td class="midR1C4">
+  									<div id="selBox"><div id="selWrapper"><div id="sel"></div></div></div>
+  								</td>
+
+  							</tr>
+
+  						</table>
+
+  					</td>
+
+  				</tr>
+
+  				<tr class="rightR3">
+
+    				<td class="rightR3C1">
+
+    					<table class="lowTable" border="0" cellpadding="0" cellspacing="0">
+
+    						<tr class="lowR1">
+
+    							<td class="lowR1C1">&nbsp;</td>
+
+    							<td class="lowR1C2">
+
+    								<div class="pageActive" id="cfgGeneral">			
+
+										<table class="peTable" border="0" cellpadding="0" cellspacing="0">
+
+											<tr class="peRow">
+												<td class="peC1">Align</td>
+												<td class="peC2"><select class="sel12" id="align"/></td>
+												<td class="peC3">Compact Width = </td>
+												<td class="peC4"><input class="inp12" id="compactWidth" type="text" style="text-align:right"/></td>
+												<td class="peC5"><span id="deferCacheLabel">Defer Cache</span></td>
+												<td class="peC6"><input class="check" id="deferCache" type="checkbox"/></td>
+											</tr>
+
+											<tr class="peRow">
+												<td class="peC1">Padding</td>
+												<td class="peC2"><input class="inp09" id="padding" type="text" maxlength="2"/></td>
+												<td class="peC3">Static Height = </td>
+												<td class="peC4"><input class="inp12" id="staticHeight" type="text" style="text-align:right"/></td>
+												<td class="peC5">No Slides</td>
+												<td class="peC6"><input class="check" id="noSlides" type="checkbox"/></td>
+											</tr>
+
+											<tr class="peRow">
+												<td class="peC1">Grid</td>
+	    										<td class="peC2"><input class="inp09" id="grid" type="text" maxlength="9"/></td>
+												<td class="peC3">Selection Overhead = </td>
+												<td class="peC4"><input class="inp12" id="selOverhead" type="text" style="text-align:right"/></td>
+												<td class="peC5">No Symbols</td>
+												<td class="peC6"><input class="check" id="noSymbols" type="checkbox"/></td>
+											</tr>
+
+											<tr class="peRow">
+	    										<td class="peC1">Ref Height</td>
+												<td class="peC2"><input class="inp09" id="refHeight" type="text" maxlength="4"/></td>
+												<td class="peC3">Slide Overhead = </td>
+												<td class="peC4"><input class="inp12" id="slideOverhead" type="text" style="text-align:right"/></td>
+												<td class="peC5">Wrap</td>
+												<td class="peC6"><input class="check" id="wrap" type="checkbox"/></td>
+											</tr>
+
+										</table>
+
+										<table class="paTable" border="0" cellpadding="0" cellspacing="0">
+
+											<tr class="paRow">
+												<td class="paC1">&nbsp;</td>
+												<td class="paC2">&nbsp;</td>
+												<td class="paC3">&nbsp;</td>
+												<td class="paC4">&nbsp;</td>
+											</tr>
+
+											<tr class="paRow">
+												<td class="paC1">Text</td>
+												<td class="paC2"><input class="inp40" id="text" type="text" maxlength="40"/></td>
+												<td class="paC3">&nbsp;</td>
+												<td class="paC4">&nbsp;</td>
+											</tr>
+
+											<tr class="paRow">
+												<td class="paC1">Link</td>
+												<td class="paC2"><input class="inp40" id="link" type="text" maxlength="100"/></td>
+												<td class="paC3">New Window</td>
+												<td class="paC4"><input class="check" id="linkNew" type="checkbox"/></td>
+											</tr>
+
+										</table>
+
+    								</div>
+
+    								<div class="pageInactive" id="cfgSelection">
+
+										<table class="dualTable" border="0" cellpadding="0" cellspacing="0">
+
+    										<tr class="dualR1">
+
+    											<td class="dualR1C1">
+
+	    											<table class="pcTable" border="0" cellpadding="0" cellspacing="0">
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Footer</td>
+	    													<td class="pcC2"><input class="inp07" id="footerColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="footerPick" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="footerStyle"/></td>
+	    													<td class="pcC5"><input class="inp02" id="footerHeight" type="text" maxlength="2"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Hover</td>
+	    													<td class="pcC2"><input class="inp07" id="hoverColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="hoverPick" type="button"></button></td>
+	    													<td class="pcC4">&nbsp;</td>
+	    													<td class="pcC5">&nbsp;</td>
+	    												</tr>
+
+	    											</table>
+
+	    											<table class="pbTable" border="0" cellpadding="0" cellspacing="0">
+
+	    												<tr class="pbRow">
+	    													<td class="pbC1">&nbsp;</td>
+	    													<td class="pbC2">&nbsp;</td>
+	    													<td class="pbC3">&nbsp;</td>
+	    													<td class="pbC4">&nbsp;</td>
+	    												</tr>
+
+	    												<tr class="pbRow">
+	    													<td class="pbC1">&nbsp;</td>
+	    													<td class="pbC2">&nbsp;</td>
+	    													<td class="pbC3">&nbsp;</td>
+	    													<td class="pbC4">&nbsp;</td>
+	    												</tr>
+
+	    												<tr class="pbRow">
+	    													<td class="pbC1">&nbsp;</td>
+	    													<td class="pbC2">&nbsp;</td>
+	    													<td class="pbC3">&nbsp;</td>
+	    													<td class="pbC4">&nbsp;</td>
+	    												</tr>
+
+	    												<tr class="pbRow">
+	    													<td class="pbC1">&nbsp;</td>
+	    													<td class="pbC2">&nbsp;</td>
+	    													<td class="pbC3">&nbsp;</td>
+	    													<td class="pbC4">&nbsp;</td>
+	    												</tr>
+
+														<tr class="pbRow">
+	    													<td class="pbC1">Layout</td>
+	    													<td class="pbC2"><select class="sel12" id="layout"/></td>
+	    													<td class="pbC3">&nbsp;</td>
+	    													<td class="pbC4">&nbsp;</td>
+	    												</tr>
+
+	    											</table>
+
+    											</td>
+
+    											<td class="dualR1C2">
+
+    												<table class="pcTable" border="0" cellpadding="0" cellspacing="0">
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Frame</td>
+	    													<td class="pcC2"><input class="inp07" id="frameColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="framePickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="frameStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="frameWidthA" type="text" maxlength="2" title="Frame Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Shape</td>
+	    													<td class="pcC2"><input class="inp07" id="shapeColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="shapePickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="shapeStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="shapeRadiusA" type="text" maxlength="2" title="Shape Radius"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Mat</td>
+	    													<td class="pcC2"><input class="inp07" id="matColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="matPickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="matStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="matWidthA" type="text" maxlength="2" title="Mat Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Edge</td>
+	    													<td class="pcC2"><input class="inp07" id="edgeColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="edgePickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="edgeStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="edgeWidthA" type="text" maxlength="2" title="Edge Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Reveal</td>
+	    													<td class="pcC2"><input class="inp07" id="revealColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="revealPickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="revealStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="revealWidthA" type="text" maxlength="2" title="Reveal Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Shadow</td>
+	    													<td class="pcC2"><input class="inp07" id="shadowColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="shadowPickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="shadowStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="shadowWidthA" type="text" maxlength="2" title="Shadow Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Spacing</td>
+	    													<td class="pcC2"><input class="inp07" id="spaceColorA" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="spacePickA" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="spaceStyleA"/></td>
+	    													<td class="pcC5"><input class="inp02" id="spaceWidthA" type="text" maxlength="2" title="Space Width"/></td>
+	    												</tr>
+
+	    											</table>
+
+    											</td>
+
+    										</tr>
+
+    									</table>
+
+    								</div>
+
+    								<div class="pageInactive" id="cfgSlides">
+
+    									<table class="dualTable" border="0" cellpadding="0" cellspacing="0">
+
+    										<tr class="dualR1">
+
+    											<td class="dualR1C1">
+
+    												<table class="pcTable" border="0" cellpadding="0" cellspacing="0">
+
+    													<tr class="pcRow">
+	    													<td class="pcC1">Upper</td>
+	    													<td class="pcC2"><input class="inp07" id="upperColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="upperPick" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="upperStyle"/></td>
+	    													<td class="pcC5"><input class="inp02" id="upperHeight" type="text" maxlength="2" title="Upper Height"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Lower</td>
+	    													<td class="pcC2"><input class="inp07" id="lowerColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="lowerPick" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="lowerStyle"/></td>
+	    													<td class="pcC5"><input class="inp02" id="lowerHeight" type="text" maxlength="2" title="Lower Height"/></td>
+	    												</tr>			
+
+														<tr class="pcRow">
+	    													<td class="pcC1">Panel</td>
+	    													<td class="pcC2"><input class="inp07" id="panelColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="panelPick" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="panelStyle"/></td>
+	    													<td class="pcC5"><input class="inp02" id="panelHeight" type="text" maxlength="2" title="Panel Height"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Buttons</td>
+	    													<td class="pcC2"><input class="inp07" id="buttonColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="buttonPick" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="buttonStyle"/></td>
+	    													<td class="pcC5"><input class="inp02" id="buttonRadius" type="text" maxlength="2" title="Button Radius (Percent)"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Spread</td>
+	    													<td class="pcC2"><input class="inp07" id="spreadColor" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="spreadPick" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="spreadStyle"/></td>
+	    													<td class="pcC5"><input class="inp02" id="spreadWidth" type="text" maxlength="2" title="Spread Width"/></td>
+	    												</tr>
+
+	    											</table>
+
+	    											<table class="pdTable" border="0" cellpadding="0" cellspacing="0">
+
+	    												<tr class="pdRow">
+	    													<td class="pdC1">Beckon</td>
+	    													<td class="pdC2"><input class="inp07" id="beckonColor" type="text" maxlength="7"/></td>
+	    													<td class="pdC3"><button class="but01" id="beckonPick" type="button"></button></td>
+	    													<td class="pdC4">&nbsp;</td>
+	    													<td class="pdC5">&nbsp;</td>
+	    												</tr>
+
+	    												<tr class="pdRow">
+	    													<td class="pdC1">Glow</td>
+	    													<td class="pdC2"><input class="inp07" id="glowColor" type="text" maxlength="7"/></td>
+	    													<td class="pdC3"><button class="but01" id="glowPick" type="button"></button></td>
+	    													<td class="pdC4">Opacity</td>
+	    													<td class="pdC5"><input class="inp03" id="panelOpacity" type="text" maxlength="3" title="Percent"/></td>
+	    												</tr>
+
+	    											</table>
+
+    											</td>
+
+    											<td class="dualR1C2">
+
+    												<table class="pcTable" border="0" cellpadding="0" cellspacing="0">
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Frame</td>
+	    													<td class="pcC2"><input class="inp07" id="frameColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="framePickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="frameStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="frameWidthB" type="text" maxlength="2" title="Frame Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Shape</td>
+	    													<td class="pcC2"><input class="inp07" id="shapeColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="shapePickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="shapeStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="shapeRadiusB" type="text" maxlength="2" title="Shape Radius"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Mat</td>
+	    													<td class="pcC2"><input class="inp07" id="matColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="matPickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="matStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="matWidthB" type="text" maxlength="2" title="Mat Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Edge</td>
+	    													<td class="pcC2"><input class="inp07" id="edgeColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="edgePickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="edgeStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="edgeWidthB" type="text" maxlength="2" title="Edge Width"/></td>
+	    												</tr>
+
+    													<tr class="pcRow">
+	    													<td class="pcC1">Reveal</td>
+	    													<td class="pcC2"><input class="inp07" id="revealColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="revealPickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="revealStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="revealWidthB" type="text" maxlength="2" title="Reveal Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Shadow</td>
+	    													<td class="pcC2"><input class="inp07" id="shadowColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="shadowPickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="shadowStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="shadowWidthB" type="text" maxlength="2" title="Shadow Width"/></td>
+	    												</tr>
+
+	    												<tr class="pcRow">
+	    													<td class="pcC1">Spacing</td>
+	    													<td class="pcC2"><input class="inp07" id="spaceColorB" type="text" maxlength="7"/></td>
+	    													<td class="pcC3"><button class="but01" id="spacePickB" type="button"></button></td>
+	    													<td class="pcC4"><select class="sel12" id="spaceStyleB"/></td>
+	    													<td class="pcC5"><input class="inp02" id="spaceWidthB" type="text" maxlength="2" title="Space Width"/></td>
+	    												</tr>
+
+	    											</table>
+
+    											</td>
+
+    										</tr>
+
+    									</table>
+
+    								</div>
+
+    							</td>
+
+    						</tr>
+
+    					</table>
+
+  					</td>
+
+  				</tr>
+
+  			</table>
+
+  		</td>
+
+  	</tr>
+
+</table>
+
+]]>
+</Content>
+
+<!--//////////////////////////////////////// HOME VIEW ///////////////////////////////////////////-->
+	
+<Content type="html" view="home">
+<![CDATA[
+
+<html>
+
+<head>
+	<title>RVJ Callanan - Photofeed</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<style type="text/css">
+
+:focus
+{
+	outline:	none;
+}
+
+::-moz-focus-inner
+{
+	padding:	0;
+	border:		0;
+}
+
+table
+{
+	margin:			0px;
+	padding:		0px;
+	border-color:	#000000;
+	border-collapse:collapse;
+	border-width:	0px;
+	border-spacing:	0px;
+	vertical-align:	top;
+	text-align:		left;
+	table-layout:	fixed;
+	font-family:	Arial, Helvetica, sans-serif;
+	font-style:		normal;
+	font-weight:	normal;
+	font-size:		6px;	
+}
+
+tr,td
+{
+	margin:			0px;
+	padding:		0px;
+	border-width:	0px;
+	border-spacing:	0px;
+	vertical-align:	top;
+	text-align:		left;
+}
+
+span
+{
+	margin:			0px;
+	padding:		0px;
+	border-width:	0px;
+	border-spacing:	0px;
+}
+
+div
+{
+	float:			none;
+	margin:			0px;
+	padding:		0px;
+	border-width:	0px;
+	border-spacing:	0px;
+	vertical-align:	top;
+	text-align:		left;
+}
+</style>
+
+<body style="background-color:transparent">
+	<div>
+		<div id="content" autocorrect="off" autocapitalize="off" spellcheck="false" style="display:inline-block;overflow:hidden">
+			&nbsp;
+		</div>
+	</div>
+</body>
+
+</html>
+
+]]>
+</Content>
+
+<!--/////////////////////////////////////// COMMON CODE //////////////////////////////////////////-->
+	
+<Content type="html" view="configuration,home">
+<![CDATA[
+
+<script type="text/javascript">
+
+//<common>//
+
+</script>
+]]>
+</Content>
+
+<!--////////////////////////////////// CONFIGURATION VIEW CODE ////////////////////////////////////-->
+
+<Content type="html" view="configuration" preferred_height="400">
+<![CDATA[
+<script type="text/javascript">
+
+//<config>//
+
+</script>
+]]>
+</Content>
+
+<!--////////////////////////////////////// HOME VIEW CODE /////////////////////////////////////////-->
+
+<Content type="html" view="home">
+<![CDATA[
+<script type="text/javascript">
+
+//<home>//
+	   
+</script>
+]]>
+</Content>
+	
+<!--/////////////////////////////////////// END OF FILE //////////////////////////////////////////-->
+
+</Module>
