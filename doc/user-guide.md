@@ -1853,6 +1853,8 @@ It defaults to *true*.
 
 # Appendices
 
+------------------------------------------------------------------------------------------------------------------------------------
+
 ## Themeable Parameters
 
 Parameter            | Variable Name    | Default         | Min               | Max               | Note
@@ -1952,6 +1954,8 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Space Width] B      | spaceWidthB      | 5               | 0                 | 20                |
 
 *Note: Decoration parameters have an A suffix for [Selection View] and a B suffix for [Slide View]*
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 ## Sample XML Export
 
@@ -2062,6 +2066,8 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ```
 
+------------------------------------------------------------------------------------------------------------------------------------
+
 ## Errors
 
 ### Configuration Errors
@@ -2138,8 +2144,11 @@ Parameter            | Variable Name    | Default         | Min               | 
 * Bad photo cabinet index items feed: expected single entry for sites page
 * Empty Photo Cabinet
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 ## Screenshots
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 ### Champion Thoroughbreds - General Configuration
 
@@ -2165,6 +2174,8 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ![](screenshots/champion-thoroughbreds/views/b.png)
 
+------------------------------------------------------------------------------------------------------------------------------------
+
 ### Churchillian Players - General Configuration
 
 ![](screenshots/churchillian-players/config/1.png)
@@ -2188,6 +2199,8 @@ Parameter            | Variable Name    | Default         | Min               | 
 ### Churchillian Players - Slide View
 
 ![](screenshots/churchillian-players/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 [REFERENCES]: #
 
