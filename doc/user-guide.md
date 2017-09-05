@@ -3398,7 +3398,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 [TV Classics Slide View]: screenshots/tv-classics/views/b.png
 
 [Works of Caravaggio General Configuration]: screenshots/works-of-caravaggio/config/1.png
-[Works of Caravaggio Configuration]: screenshots/works-of-caravaggio/config/2.png
+[Works of Caravaggio Selection Configuration]: screenshots/works-of-caravaggio/config/2.png
 [Works of Caravaggio Slide Configuration]: screenshots/works-of-caravaggio/config/3.png
 [Works of Caravaggio Standard Configuration]: screenshots/works-of-caravaggio/config/4.png
 [Works of Caravaggio Selection View]: screenshots/works-of-caravaggio/views/a.png
