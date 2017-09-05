@@ -4,6 +4,8 @@ By RVJ Callanan
 
 Originated: 2009-11-23; last updated: 2016-07-02
 
+![][Champion Thoroughbreds General Configuration]
+
 ## Contents
 
 * [Introduction]
