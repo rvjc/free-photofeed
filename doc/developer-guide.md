@@ -5,7 +5,7 @@ By RVJ Callanan
 Originated: 2009-11-23; last updated: 2016-07-02
 
 
-# Introduction
+## Introduction
 
 If the Photofeed gadget is used extensively on your site, there are a number
 of reasons why you might want to maintain your own customised version:
@@ -21,30 +21,29 @@ license. The latest source code and tools can be downloaded from:
 
 https://github.com/rvjc/photofeed
 
-The root directory contains tools, scripts, docs, intermediate outputs and the
+The root directory contains tools, scripts, intermediate outputs and the
 consolidated build output (photofeed.xml) for uploading to your Gadget host.
 
 Code changes are made in the /src directory. Please do not edit intermediate
 Javascript files in the root directory as these will be over-written.
 
-The /sample directory is used for sample themes and such like.
 
-
-# The Build Environment
+## The Build Environment
 
 For historical reasons, the Photofeed build system is Windows-based (Windows 7
 or greater). Once a local copy of the project directory has been downloaded,
 one of two build scripts can be invoked in the root directory.
 
-Use MAKE-DEBUG.BAT for debug builds which are optimised for fast edit/test
+Use `make-debug.bat` for debug builds which are optimised for fast edit/test
 cycles and browser-based debugging (no code compaction is performed). These
 builds also respect in-code debugging aids such as assertions. Additional
-debugging aids can be invoked by enabling the DEBUG property of the CON object
-in /src/photofeed-common.js. Don't forget to disable this in production builds!
+debugging aids can be invoked by enabling the `debug` property of the `Con`
+class in `/src/photofeed-common.js`. Don't forget to disable this in
+production builds!
 
-Use MAKE.BAT for production builds (ensuring that the DEBUG property of the
-CON object has been disabled). Production builds take much longer than debug
-builds because the following additional steps are performed:
+Use `make.bat` for production builds (ensuring that the `debug` property of
+the `Con` object has been disabled). Production builds take much longer than
+debug builds because the following additional steps are performed:
 
 * In-code debugging aids (such as assertions) are removed
 * Code is scanned for dangerous constructs and potential bugs
@@ -55,7 +54,7 @@ The following FART.EXE warning can be ignored during production builds:
 Warning: unrecognized character escape sequence: \/
 
 
-# Release Checks
+## Release Checks
 
 Before releasing a production build, check the following validation reports in
 the root directory:
@@ -70,7 +69,7 @@ leaking into the global namespace. These can produce nasty bugs which are
 difficult to isolate.
 
 
-# Notes
+## Notes
 
 The Photofeed gadget has evolved from a simple front-end to a sophisticated
 image rendering and management tool during a particularly chaotic phase in the
