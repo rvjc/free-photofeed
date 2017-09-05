@@ -1,4 +1,4 @@
-# Photofeed Gadget Change History
+# Photofeed Gadget Changes
 
 ## V1.00: 2009-09-10: RVJ Callanan
 
