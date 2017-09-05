@@ -2378,7 +2378,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ![](screenshots/works-of-caravaggio/views/b.png)
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 [REFERENCES]: #
 
