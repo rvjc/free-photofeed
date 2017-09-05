@@ -2368,7 +2368,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ### Works of Caravaggio - Standard Configuration
 
-![](screenshots/works-of-caravaggios/config/4.png)
+![](screenshots/works-of-caravaggio/config/4.png)
 
 ### Works of Caravaggio - Selection View
 
