@@ -2141,6 +2141,8 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ## Screenshots
 
+![](screenshots/champion-thoroughbreds/views/a.png)
+
 
 [REFERENCES]: #
 
