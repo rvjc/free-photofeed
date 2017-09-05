@@ -2,5 +2,6 @@
 
 ![](doc/screenshots/photofeed.png)
 
+## Documentation Links
 
-[](doc/user-guide.md)
+[User Guide](doc/user-guide.md)
