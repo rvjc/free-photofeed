@@ -14,7 +14,7 @@ of reasons why you might want to maintain your own customised version:
 * Leverage code base to quickly add new features or tweak existing features
 * Implement localisation/language tweaks not available via the theme file
 * Discard non-essential features
-* Take control the software update schedule
+* Take control of the software update schedule
 
 The good news is that this gadget is now open-sourced with a permissive MIT
 license. The latest source code and tools can be downloaded from:
