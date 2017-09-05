@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="3,3,3,3"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#888888"/>
+        <p name="footerStyle" value="None"/>
+        <p name="footerHeight" value="30"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#00B700"/>
+        <p name="frameStyleA" value="Solid"/>
+        <p name="frameWidthA" value="4"/>
+        <p name="shapeColorA" value="#FFFFFF"/>
+        <p name="shapeStyleA" value="Round px"/>
+        <p name="shapeRadiusA" value="20"/>
+        <p name="matColorA" value="#FFFFFF"/>
+        <p name="matStyleA" value="Solid"/>
+        <p name="matWidthA" value="4"/>
+        <p name="edgeColorA" value="#FFB618"/>
+        <p name="edgeStyleA" value="Solid"/>
+        <p name="edgeWidthA" value="2"/>
+        <p name="revealColorA" value="#FFB618"/>
+        <p name="revealStyleA" value="Solid"/>
+        <p name="revealWidthA" value="2"/>
+        <p name="shadowColorA" value="#87FFFF"/>
+        <p name="shadowStyleA" value="Dot T"/>
+        <p name="shadowWidthA" value="10"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="15"/>
+        <p name="panelColor" value="#00B700"/>
+        <p name="panelStyle" value="Slim L"/>
+        <p name="panelHeight" value="50"/>
+        <p name="panelOpacity" value="20"/>
+        <p name="buttonColor" value="#FFFFFF"/>
+        <p name="buttonStyle" value="Bare"/>
+        <p name="buttonRadius" value="10"/>
+        <p name="spreadColor" value="#888888"/>
+        <p name="spreadStyle" value="Clear"/>
+        <p name="spreadWidth" value="0"/>
+        <p name="glowColor" value="#FFB618"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#FFFD10"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="50"/>
+        <p name="lowerColor" value="#9FA700"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="30"/>
+        <p name="frameColorB" value="#00B700"/>
+        <p name="frameStyleB" value="Solid"/>
+        <p name="frameWidthB" value="8"/>
+        <p name="shapeColorB" value="#FFFFFF"/>
+        <p name="shapeStyleB" value="Round px"/>
+        <p name="shapeRadiusB" value="40"/>
+        <p name="matColorB" value="#FFFFFF"/>
+        <p name="matStyleB" value="Solid"/>
+        <p name="matWidthB" value="8"/>
+        <p name="edgeColorB" value="#FFB618"/>
+        <p name="edgeStyleB" value="Solid"/>
+        <p name="edgeWidthB" value="4"/>
+        <p name="revealColorB" value="#FFB618"/>
+        <p name="revealStyleB" value="Solid"/>
+        <p name="revealWidthB" value="4"/>
+        <p name="shadowColorB" value="#87FFFF"/>
+        <p name="shadowStyleB" value="Dot T"/>
+        <p name="shadowWidthB" value="20"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="20"/>
+
+    </option>
+
+</theme>
