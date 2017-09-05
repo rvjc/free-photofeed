@@ -2198,6 +2198,33 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
+### Exotic Fish - General Configuration
+
+![](screenshots/exotic-fish/config/1.png)
+
+### Exotic Fish - Selection Configuration
+
+![](screenshots/exotic-fish/config/2.png)
+
+### Exotic Fish - Slide Configuration
+
+![](screenshots/exotic-fish/config/3.png)
+
+### Exotic Fish - Standard Configuration
+
+![](screenshots/exotic-fish/config/4.png)
+
+### Exotic Fish - Selection View
+
+![](screenshots/exotic-fish/views/a.png)
+
+### Exotic Fish - Slide View
+
+![](screenshots/exotic-fish/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
 [REFERENCES]: #
 
 [Introduction]: #introduction
