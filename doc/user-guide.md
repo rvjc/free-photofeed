@@ -2141,12 +2141,14 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ## Screenshots
 
-![](screenshots/champion-thoroughbreds/views/a.png)
-![](screenshots/champion-thoroughbreds/views/b.png)
-![](screenshots/champion-thoroughbreds/config/1.png)
-![](screenshots/champion-thoroughbreds/config/2.png)
-![](screenshots/champion-thoroughbreds/config/3.png)
-![](screenshots/champion-thoroughbreds/config/4.png)
+### Champion Thoroughbreds
+
+![Selection View](screenshots/champion-thoroughbreds/views/a.png)
+![Slide View](screenshots/champion-thoroughbreds/views/b.png)
+![General Config](screenshots/champion-thoroughbreds/config/1.png)
+![Selection Configuration](screenshots/champion-thoroughbreds/config/2.png)
+![Slide Configuration](screenshots/champion-thoroughbreds/config/3.png)
+![Standard Configuration](screenshots/champion-thoroughbreds/config/4.png)
 
 
 [REFERENCES]: #
