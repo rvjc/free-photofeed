@@ -2168,7 +2168,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ![](screenshots/champion-thoroughbreds/views/a.png)
 
-### Champion Thoroughbreds - Slide View
+#### Champion Thoroughbreds - Slide View
 
 ![](screenshots/champion-thoroughbreds/views/b.png)
 
