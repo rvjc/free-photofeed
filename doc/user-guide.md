@@ -2224,6 +2224,161 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
+### Hubble Discoveries - General Configuration
+
+![](screenshots/hubble-discoveries/config/1.png)
+
+### Hubble Discoveries - Selection Configuration
+
+![](screenshots/hubble-discoveries/config/2.png)
+
+### Hubble Discoveries - Slide Configuration
+
+![](screenshots/hubble-discoveries/config/3.png)
+
+### Hubble Discoveries - Standard Configuration
+
+![](screenshots/hubble-discoveries/config/4.png)
+
+### Hubble Discoveries - Selection View
+
+![](screenshots/hubble-discoveries/views/a.png)
+
+### Hubble Discoveries - Slide View
+
+![](screenshots/hubble-discoveries/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+### Hurling Legends - General Configuration
+
+![](screenshots/hurling-legends/config/1.png)
+
+### Hurling Legends - Selection Configuration
+
+![](screenshots/hurling-legends/config/2.png)
+
+### Hurling Legends - Slide Configuration
+
+![](screenshots/hurling-legends/config/3.png)
+
+### Hurling Legends - Standard Configuration
+
+![](screenshots/hurling-legends/config/4.png)
+
+### Hurling Legends - Selection View
+
+![](screenshots/hurling-legends/views/a.png)
+
+### Hurling Legends - Slide View
+
+![](screenshots/hurling-legends/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+### Luminaries of Science - General Configuration
+
+![](screenshots/luminaries-of-science/config/1.png)
+
+### Luminaries of Science - Selection Configuration
+
+![](screenshots/luminaries-of-science/config/2.png)
+
+### Luminaries of Science - Slide Configuration
+
+![](screenshots/luminaries-of-science/config/3.png)
+
+### Luminaries of Science - Standard Configuration
+
+![](screenshots/luminaries-of-science/config/4.png)
+
+### Luminaries of Science - Selection View
+
+![](screenshots/luminaries-of-science/views/a.png)
+
+### Luminaries of Science - Slide View
+
+![](screenshots/luminaries-of-science/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+### Mandelbrot Universe - General Configuration
+
+![](screenshots/mandelbrot-universe/config/1.png)
+
+### Mandelbrot Universe - Selection Configuration
+
+![](screenshots/mandelbrot-universe/config/2.png)
+
+### Mandelbrot Universe - Slide Configuration
+
+![](screenshots/mandelbrot-universe/config/3.png)
+
+### Mandelbrot Universe - Standard Configuration
+
+![](screenshots/mandelbrot-universe/config/4.png)
+
+### Mandelbrot Universe - Selection View
+
+![](screenshots/mandelbrot-universe/views/a.png)
+
+### Mandelbrot Universe - Slide View
+
+![](screenshots/mandelbrot-universe/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+### TV Classics - General Configuration
+
+![](screenshots/tv-classics/config/1.png)
+
+### TV Classics - Selection Configuration
+
+![](screenshots/tv-classics/config/2.png)
+
+### TV Classics - Slide Configuration
+
+![](screenshots/tv-classics/config/3.png)
+
+### TV Classics - Standard Configuration
+
+![](screenshots/tv-classics/config/4.png)
+
+### TV Classics - Selection View
+
+![](screenshots/tv-classics/views/a.png)
+
+### TV Classics - Slide View
+
+![](screenshots/tv-classics/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+### Works of Caravaggio - General Configuration
+
+![](screenshots/works-of-caravaggio/config/1.png)
+
+### Works of Caravaggio - Selection Configuration
+
+![](screenshots/works-of-caravaggio/config/2.png)
+
+### Works of Caravaggio - Slide Configuration
+
+![](screenshots/works-of-caravaggio/config/3.png)
+
+### Works of Caravaggio - Standard Configuration
+
+![](screenshots/works-of-caravaggios/config/4.png)
+
+### Works of Caravaggio - Selection View
+
+![](screenshots/works-of-caravaggio/views/a.png)
+
+### Works of Caravaggio - Slide View
+
+![](screenshots/works-of-caravaggio/views/b.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 [REFERENCES]: #
 
