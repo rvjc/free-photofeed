@@ -4,7 +4,7 @@ By RVJ Callanan
 
 Originated: 2009-11-23; last updated: 2016-07-02
 
-![][Champion Thoroughbreds General Configuration]
+![][Photofeed Splash]
 
 ## Contents
 
@@ -3342,6 +3342,8 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 [Photofeed Gadget Documentation]: .\doc
 [Photofeed Gadget Developer Guide]: developer-guide.md
+
+[Photofeed Splash]: screenshots/photofeed.png
 
 [Champion Thoroughbreds General Configuration]: screenshots/champion-thoroughbreds/config/1.png
 [Champion Thoroughbreds Selection Configuration]: screenshots/champion-thoroughbreds/config/2.png
