@@ -1,12 +1,9 @@
 # Photofeed Gadget Change History
 
------------------------------------------------------------------
-
 ## V1.00: 2009-09-10: RVJ Callanan
 
 * Initial Release
 
------------------------------------------------------------------
 
 ## V1.01: 2009-09-15: RVJ Callanan
 
@@ -18,14 +15,12 @@
   It is now the responsibility of the appropriate view code
   e.g. config view needs to update SRC object after source
   parameter is modified. Historically there was no SRC object
-
------------------------------------------------------------------
+  
 
 ## V1.02: 2011-10-04: RVJ Callanan
 
 * Force HTTPS for feed URLs as per Google security changes
 
------------------------------------------------------------------
 
 ## V1.03: 2011-11-10: RVJ Callanan
 
@@ -47,7 +42,6 @@
   Note that the prechecker still complains about absence of
   thumnail image but that is not a deal breaker for publication
 
------------------------------------------------------------------
 
 ## V1.04: 2011-11-13: RVJ Callanan
 
@@ -61,7 +55,6 @@
   object has been created. The changes were made to the following
   classes: CRX, CAB, SEL, SHO
 
------------------------------------------------------------------
 
 ## V1.10: 2012-01-20: RVJ Callanan  
 
@@ -129,7 +122,6 @@
   objects present simultaneously but that is overkill for such a
   simple gadget.
 
------------------------------------------------------------------
 
 ## V1.11: 2012-02-16: RVJ Callanan  
 
@@ -138,7 +130,6 @@
 
 * Reduced minimum allowable slide height to 150px.
 
------------------------------------------------------------------
 
 ## V1.20: 2012-04-26: RVJ Callanan
 
@@ -178,20 +169,17 @@
   currently defaults to "Select Toggle" mode which is essentially
   how the other version operates.
 
------------------------------------------------------------------
 
 ## V1.30: 2012-05-25: RVJ Callanan
 
 * Shadows introduced using dynamically-generated PNG patterns.
 * Mat patterns introduced using dynamically-generated PNG patterns.
 
------------------------------------------------------------------
 
 ## V1.31: 2012-07-16: RVJ Callanan
 
 * Color Swatch and Image Preview implemented in config view.
 
------------------------------------------------------------------
 
 ## V1.32: 2012-08-01: RVJ Callanan
 
@@ -199,7 +187,6 @@
   negative photo height, especially when unusually large selection
   metrics are taken into account.
 
------------------------------------------------------------------
 
 ## V2.00: 2013-11-14: RVJ Callanan
 
@@ -215,13 +202,11 @@
 
 * Themes introduced to faciliate site-wide management.
 
------------------------------------------------------------------
 
 ## V2.01: 2013-12-05: RVJ Callanan
 
 * Workaround for dynamic gadget height adjustment bug in IE9+ 
 
------------------------------------------------------------------
 
 ## V2.10: 2014-01-05: RVJ Callanan
 
@@ -229,20 +214,17 @@
   english in user interface with themeable parameters using 'lang'
   prefix.
 
------------------------------------------------------------------
 
 ## V2.20: 2014-02-17: RVJ Callanan
 
 * Implemented forced themes and theme defaults.
 
------------------------------------------------------------------
 
 ## V2.30: 2014-05-02: RVJ Callanan
 
 * Re-implemented potentially subjective global constants as
   themeable system configuration parameters.
 
------------------------------------------------------------------
 
 ## V2.31: 2014-05-10: RVJ Callanan
 
@@ -251,44 +233,37 @@
   gadget placement is dimension-sensitive e.g. left or right
   aligned with text wrapping.
 
------------------------------------------------------------------
 
 ## V2.40: 2014-06-16: RVJ Callanan
 
 * Introduced panel dim opacity configuration parameter 
 
------------------------------------------------------------------
 
 ## V2.41: 2014-06-19: RVJ Callanan
 
 * Implemented documented gadget body background-color fix to make
   gadget transparent to Sites theme gadget content background. 
 
------------------------------------------------------------------
 
 ## V2.50: 2014-06-23: RVJ Callanan
 
 * Added gadget padding and align parameters.
 
------------------------------------------------------------------
 
 ## V2.51: 2014-06-27: RVJ Callanan
 
 * General tweaks and some minor bug fixes
 
------------------------------------------------------------------
 
 ## V2.52: 2014-07-02: RVJ Callanan
 
 * More tweaks and bug fixes after extensive cross-browser testing
 
------------------------------------------------------------------
 
 ## V2.53: 2014-07-05: RVJ Callanan
 
 * Fixed code compaction issues not present in debug version 
 
------------------------------------------------------------------
 
 ## V2.60: 2016-10-05: RVJ Callanan
 
@@ -297,20 +272,17 @@
   compatible configuration data changes in future releases albeit
   at the expense of bigger option lists.
 
------------------------------------------------------------------
 
 ## V2.61: 2016-10-05: RVJ Callanan
 
 * Replaced unicode symbols used in slide panel with better looking
   Google material fonts
 
------------------------------------------------------------------
 
 ## V2.62: 2017-01-23: RVJ Callanan
 
 * Incorporated simple help modal window for slide show.
 
------------------------------------------------------------------
 
 ## V2.63: 2017-02-02: RVJ Callanan
 
@@ -319,7 +291,6 @@
   shadow pattern option retained for backward compatibility and
   nostalgic look (if desired).
 
------------------------------------------------------------------
 
 ## V2.64: 2017-02-02: RVJ Callanan
 
@@ -328,7 +299,6 @@
   corners also available on panel buttons. Spread options introduced
   for buttons to facilitate better dimension/spacing control.
 
------------------------------------------------------------------
 
 ## V2.65: 2017-02-19: RVJ Callanan
 
@@ -339,7 +309,6 @@
   metrics are scaled up version of default selection metrics to
   emphasise the fact that they can be individually controlled.
 
------------------------------------------------------------------
 
 ## V2.66: 2017-03-10: RVJ Callanan
 
@@ -350,7 +319,6 @@
   a theme file. This feature is speeds up design iterations
   dramatically when experimenting and updating themes.
 
------------------------------------------------------------------
 
 ## V2.67: 2017-04-04: RVJ Callanan
 
@@ -362,7 +330,6 @@
   is not the case then lower text will alternate between two
   states depending on availability of photo caption.
 
------------------------------------------------------------------
 
 ## V2.70: 2017-05-10: RVJ Callanan
 
@@ -379,5 +346,3 @@
   Depending on the progression of the new Google Sites service
   (which is still in the early stages), twin versions of this
   gadget may be supported into the future. 
-
------------------------------------------------------------------
