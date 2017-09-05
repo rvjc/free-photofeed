@@ -3047,16 +3047,11 @@ Parameter            | Variable Name    | Default         | Min               | 
 ### Champion Thoroughbreds
 
 ![][Champion Thoroughbreds General Configuration]
-
-![](screenshots/champion-thoroughbreds/config/2.png)
-
-![](screenshots/champion-thoroughbreds/config/3.png)
-
-![](screenshots/champion-thoroughbreds/config/4.png)
-
-![](screenshots/champion-thoroughbreds/views/a.png)
-
-![](screenshots/champion-thoroughbreds/views/b.png)
+![][Champion Thoroughbreds Selection Configuration]
+![][Champion Thoroughbreds Slide Configuration]
+![][Champion Thoroughbreds Standard Configuration]
+![][Champion Thoroughbreds Selection View]
+![][Champion Thoroughbreds Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -3387,6 +3382,11 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Photofeed Gadget Developer Guide]: developer-guide.md
 
 [Champion Thoroughbreds General Configuration]: screenshots/champion-thoroughbreds/config/1.png
+[Champion Thoroughbreds Selection Configuration]: screenshots/champion-thoroughbreds/config/2.png
+[Champion Thoroughbreds Slide Configuration]: screenshots/champion-thoroughbreds/config/3.png
+[Champion Thoroughbreds Standard Configuration]: screenshots/champion-thoroughbreds/config/4.png
+[Champion Thoroughbreds Selection View]: screenshots/champion-thoroughbreds/views/a.png
+[Champion Thoroughbreds Slide View]: screenshots/champion-thoroughbreds/views/b.png
 
 [Photofeed Gadget GitHub Repository]: https://github.com/rvjc/photofeed
 [Classic Google Sites Demo]: http://cgs.rvjc.com
