@@ -1962,7 +1962,118 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-## Sample XML Export
+## Sample XML Exports
+
+### Cosmos Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="2,2,2"/>
+        <p name="wrap" value="true"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#888888"/>
+        <p name="footerStyle" value="None"/>
+        <p name="footerHeight" value="30"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#FFD018"/>
+        <p name="frameStyleA" value="Solid"/>
+        <p name="frameWidthA" value="1"/>
+        <p name="shapeColorA" value="#FFFFFF"/>
+        <p name="shapeStyleA" value="Round px"/>
+        <p name="shapeRadiusA" value="15"/>
+        <p name="matColorA" value="#FFFFFF"/>
+        <p name="matStyleA" value="Solid"/>
+        <p name="matWidthA" value="1"/>
+        <p name="edgeColorA" value="#000000"/>
+        <p name="edgeStyleA" value="None"/>
+        <p name="edgeWidthA" value="1"/>
+        <p name="revealColorA" value="#FFFFFF"/>
+        <p name="revealStyleA" value="None"/>
+        <p name="revealWidthA" value="5"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="None"/>
+        <p name="shadowWidthA" value="5"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="10"/>
+        <p name="panelColor" value="#CFA200"/>
+        <p name="panelStyle" value="Slim L"/>
+        <p name="panelHeight" value="40"/>
+        <p name="panelOpacity" value="40"/>
+        <p name="buttonColor" value="#FFFFFF"/>
+        <p name="buttonStyle" value="Bare"/>
+        <p name="buttonRadius" value="25"/>
+        <p name="spreadColor" value="#FFD018"/>
+        <p name="spreadStyle" value="Blur"/>
+        <p name="spreadWidth" value="8"/>
+        <p name="glowColor" value="#FFD018"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#FFFFFF"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="40"/>
+        <p name="lowerColor" value="#888888"/>
+        <p name="lowerStyle" value="Normal S"/>
+        <p name="lowerHeight" value="50"/>
+        <p name="frameColorB" value="#FFD018"/>
+        <p name="frameStyleB" value="Solid"/>
+        <p name="frameWidthB" value="1"/>
+        <p name="shapeColorB" value="#FFFFFF"/>
+        <p name="shapeStyleB" value="Round px"/>
+        <p name="shapeRadiusB" value="30"/>
+        <p name="matColorB" value="#FFFFFF"/>
+        <p name="matStyleB" value="Solid"/>
+        <p name="matWidthB" value="1"/>
+        <p name="edgeColorB" value="#000000"/>
+        <p name="edgeStyleB" value="None"/>
+        <p name="edgeWidthB" value="1"/>
+        <p name="revealColorB" value="#FFFFFF"/>
+        <p name="revealStyleB" value="None"/>
+        <p name="revealWidthB" value="1"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="None"/>
+        <p name="shadowWidthB" value="10"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="10"/>
+
+    </option>
+
+</theme>
+
+```
+
+### Default Theme
 
 ```xml
 
@@ -2061,6 +2172,769 @@ Parameter            | Variable Name    | Default         | Min               | 
         <p name="shadowColorB" value="#888888"/>
         <p name="shadowStyleB" value="Blur S"/>
         <p name="shadowWidthB" value="10"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="10"/>
+
+    </option>
+
+</theme>
+
+```
+
+### Equestrian Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="1,1,1"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#888888"/>
+        <p name="footerStyle" value="None"/>
+        <p name="footerHeight" value="30"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#236000"/>
+        <p name="frameStyleA" value="Ridge"/>
+        <p name="frameWidthA" value="4"/>
+        <p name="shapeColorA" value="#ECFFC7"/>
+        <p name="shapeStyleA" value="Rect"/>
+        <p name="shapeRadiusA" value="10"/>
+        <p name="matColorA" value="#ECFFC7"/>
+        <p name="matStyleA" value="Solid"/>
+        <p name="matWidthA" value="12"/>
+        <p name="edgeColorA" value="#236000"/>
+        <p name="edgeStyleA" value="Solid"/>
+        <p name="edgeWidthA" value="1"/>
+        <p name="revealColorA" value="#ECFFC7"/>
+        <p name="revealStyleA" value="Solid"/>
+        <p name="revealWidthA" value="2"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="Haze S"/>
+        <p name="shadowWidthA" value="20"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="10"/>
+        <p name="panelColor" value="#ECFFC7"/>
+        <p name="panelStyle" value="Wide L"/>
+        <p name="panelHeight" value="40"/>
+        <p name="panelOpacity" value="40"/>
+        <p name="buttonColor" value="#236000"/>
+        <p name="buttonStyle" value="Bare"/>
+        <p name="buttonRadius" value="50"/>
+        <p name="spreadColor" value="#ECFFC7"/>
+        <p name="spreadStyle" value="Blur"/>
+        <p name="spreadWidth" value="8"/>
+        <p name="glowColor" value="#00FF00"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#ECFFC7"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="40"/>
+        <p name="lowerColor" value="#1E4000"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="26"/>
+        <p name="frameColorB" value="#236000"/>
+        <p name="frameStyleB" value="Ridge"/>
+        <p name="frameWidthB" value="10"/>
+        <p name="shapeColorB" value="#ECFFC7"/>
+        <p name="shapeStyleB" value="Rect"/>
+        <p name="shapeRadiusB" value="10"/>
+        <p name="matColorB" value="#ECFFC7"/>
+        <p name="matStyleB" value="Solid"/>
+        <p name="matWidthB" value="30"/>
+        <p name="edgeColorB" value="#236000"/>
+        <p name="edgeStyleB" value="Double"/>
+        <p name="edgeWidthB" value="3"/>
+        <p name="revealColorB" value="#ECFFC7"/>
+        <p name="revealStyleB" value="Solid"/>
+        <p name="revealWidthB" value="5"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="Haze S"/>
+        <p name="shadowWidthB" value="20"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="20"/>
+
+    </option>
+
+</theme>
+
+```
+
+### RAF Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="20"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="3,3,3,3"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#888888"/>
+        <p name="footerStyle" value="Normal M"/>
+        <p name="footerHeight" value="30"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#EF0000"/>
+        <p name="frameStyleA" value="Solid"/>
+        <p name="frameWidthA" value="3"/>
+        <p name="shapeColorA" value="#FFFFFF"/>
+        <p name="shapeStyleA" value="Round px"/>
+        <p name="shapeRadiusA" value="20"/>
+        <p name="matColorA" value="#FFFFFF"/>
+        <p name="matStyleA" value="Solid"/>
+        <p name="matWidthA" value="5"/>
+        <p name="edgeColorA" value="#2200E7"/>
+        <p name="edgeStyleA" value="Solid"/>
+        <p name="edgeWidthA" value="1"/>
+        <p name="revealColorA" value="#FFFFFF"/>
+        <p name="revealStyleA" value="Solid"/>
+        <p name="revealWidthA" value="2"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="Blur T"/>
+        <p name="shadowWidthA" value="20"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Solid"/>
+        <p name="spaceWidthA" value="20"/>
+        <p name="panelColor" value="#000000"/>
+        <p name="panelStyle" value="Slim L"/>
+        <p name="panelHeight" value="40"/>
+        <p name="panelOpacity" value="40"/>
+        <p name="buttonColor" value="#0098FF"/>
+        <p name="buttonStyle" value="Dotted"/>
+        <p name="buttonRadius" value="20"/>
+        <p name="spreadColor" value="#888888"/>
+        <p name="spreadStyle" value="Clear"/>
+        <p name="spreadWidth" value="0"/>
+        <p name="glowColor" value="#FFFFFF"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#FFFFFF"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="50"/>
+        <p name="lowerColor" value="#888888"/>
+        <p name="lowerStyle" value="Normal S"/>
+        <p name="lowerHeight" value="50"/>
+        <p name="frameColorB" value="#EF0000"/>
+        <p name="frameStyleB" value="Solid"/>
+        <p name="frameWidthB" value="12"/>
+        <p name="shapeColorB" value="#FFFFFF"/>
+        <p name="shapeStyleB" value="Round px"/>
+        <p name="shapeRadiusB" value="40"/>
+        <p name="matColorB" value="#FFFFFF"/>
+        <p name="matStyleB" value="Solid"/>
+        <p name="matWidthB" value="20"/>
+        <p name="edgeColorB" value="#2200E7"/>
+        <p name="edgeStyleB" value="Solid"/>
+        <p name="edgeWidthB" value="4"/>
+        <p name="revealColorB" value="#FFFFFF"/>
+        <p name="revealStyleB" value="Solid"/>
+        <p name="revealWidthB" value="4"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="Blur T"/>
+        <p name="shadowWidthB" value="20"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="20"/>
+
+    </option>
+
+</theme>
+
+```
+
+### Nautical Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="1,1,1"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#888888"/>
+        <p name="footerStyle" value="None"/>
+        <p name="footerHeight" value="30"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#298CCA"/>
+        <p name="frameStyleA" value="Solid"/>
+        <p name="frameWidthA" value="5"/>
+        <p name="shapeColorA" value="#FFFF87"/>
+        <p name="shapeStyleA" value="Round %"/>
+        <p name="shapeRadiusA" value="50"/>
+        <p name="matColorA" value="#FFFF87"/>
+        <p name="matStyleA" value="Solid"/>
+        <p name="matWidthA" value="5"/>
+        <p name="edgeColorA" value="#000000"/>
+        <p name="edgeStyleA" value="None"/>
+        <p name="edgeWidthA" value="1"/>
+        <p name="revealColorA" value="#FFFFFF"/>
+        <p name="revealStyleA" value="None"/>
+        <p name="revealWidthA" value="1"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="None"/>
+        <p name="shadowWidthA" value="5"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="20"/>
+        <p name="panelColor" value="#298CCA"/>
+        <p name="panelStyle" value="Wide M"/>
+        <p name="panelHeight" value="30"/>
+        <p name="panelOpacity" value="40"/>
+        <p name="buttonColor" value="#FFFFFF"/>
+        <p name="buttonStyle" value="Fill Bare"/>
+        <p name="buttonRadius" value="50"/>
+        <p name="spreadColor" value="#888888"/>
+        <p name="spreadStyle" value="Clear"/>
+        <p name="spreadWidth" value="0"/>
+        <p name="glowColor" value="#00FF00"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#FFFFFF"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="40"/>
+        <p name="lowerColor" value="#7F7F7F"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="30"/>
+        <p name="frameColorB" value="#298CCA"/>
+        <p name="frameStyleB" value="Solid"/>
+        <p name="frameWidthB" value="10"/>
+        <p name="shapeColorB" value="#FFFF58"/>
+        <p name="shapeStyleB" value="Round %"/>
+        <p name="shapeRadiusB" value="50"/>
+        <p name="matColorB" value="#FFFF58"/>
+        <p name="matStyleB" value="Solid"/>
+        <p name="matWidthB" value="10"/>
+        <p name="edgeColorB" value="#000000"/>
+        <p name="edgeStyleB" value="None"/>
+        <p name="edgeWidthB" value="2"/>
+        <p name="revealColorB" value="#FFFFFF"/>
+        <p name="revealStyleB" value="None"/>
+        <p name="revealWidthB" value="2"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="None"/>
+        <p name="shadowWidthB" value="10"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="10"/>
+
+    </option>
+
+</theme>
+
+```
+
+### GAA Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="3,3,3,3"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#888888"/>
+        <p name="footerStyle" value="None"/>
+        <p name="footerHeight" value="30"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#00B700"/>
+        <p name="frameStyleA" value="Solid"/>
+        <p name="frameWidthA" value="4"/>
+        <p name="shapeColorA" value="#FFFFFF"/>
+        <p name="shapeStyleA" value="Round px"/>
+        <p name="shapeRadiusA" value="20"/>
+        <p name="matColorA" value="#FFFFFF"/>
+        <p name="matStyleA" value="Solid"/>
+        <p name="matWidthA" value="4"/>
+        <p name="edgeColorA" value="#FFB618"/>
+        <p name="edgeStyleA" value="Solid"/>
+        <p name="edgeWidthA" value="2"/>
+        <p name="revealColorA" value="#FFB618"/>
+        <p name="revealStyleA" value="Solid"/>
+        <p name="revealWidthA" value="2"/>
+        <p name="shadowColorA" value="#87FFFF"/>
+        <p name="shadowStyleA" value="Dot T"/>
+        <p name="shadowWidthA" value="10"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="15"/>
+        <p name="panelColor" value="#00B700"/>
+        <p name="panelStyle" value="Slim L"/>
+        <p name="panelHeight" value="50"/>
+        <p name="panelOpacity" value="20"/>
+        <p name="buttonColor" value="#FFFFFF"/>
+        <p name="buttonStyle" value="Bare"/>
+        <p name="buttonRadius" value="10"/>
+        <p name="spreadColor" value="#888888"/>
+        <p name="spreadStyle" value="Clear"/>
+        <p name="spreadWidth" value="0"/>
+        <p name="glowColor" value="#FFB618"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#FFFD10"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="50"/>
+        <p name="lowerColor" value="#9FA700"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="30"/>
+        <p name="frameColorB" value="#00B700"/>
+        <p name="frameStyleB" value="Solid"/>
+        <p name="frameWidthB" value="8"/>
+        <p name="shapeColorB" value="#FFFFFF"/>
+        <p name="shapeStyleB" value="Round px"/>
+        <p name="shapeRadiusB" value="40"/>
+        <p name="matColorB" value="#FFFFFF"/>
+        <p name="matStyleB" value="Solid"/>
+        <p name="matWidthB" value="8"/>
+        <p name="edgeColorB" value="#FFB618"/>
+        <p name="edgeStyleB" value="Solid"/>
+        <p name="edgeWidthB" value="4"/>
+        <p name="revealColorB" value="#FFB618"/>
+        <p name="revealStyleB" value="Solid"/>
+        <p name="revealWidthB" value="4"/>
+        <p name="shadowColorB" value="#87FFFF"/>
+        <p name="shadowStyleB" value="Dot T"/>
+        <p name="shadowWidthB" value="20"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="20"/>
+
+    </option>
+
+</theme>
+
+```
+
+### Screenshot Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Left"/>
+        <p name="refHeight" value="438"/>
+        <p name="grid" value="2,2,2,2,2"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#676767"/>
+        <p name="footerStyle" value="Normal M"/>
+        <p name="footerHeight" value="26"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#0000FF"/>
+        <p name="frameStyleA" value="None"/>
+        <p name="frameWidthA" value="5"/>
+        <p name="shapeColorA" value="#FFFFFF"/>
+        <p name="shapeStyleA" value="Round px"/>
+        <p name="shapeRadiusA" value="3"/>
+        <p name="matColorA" value="#FFFFFF"/>
+        <p name="matStyleA" value="None"/>
+        <p name="matWidthA" value="5"/>
+        <p name="edgeColorA" value="#000000"/>
+        <p name="edgeStyleA" value="None"/>
+        <p name="edgeWidthA" value="1"/>
+        <p name="revealColorA" value="#FFFFFF"/>
+        <p name="revealStyleA" value="None"/>
+        <p name="revealWidthA" value="1"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="None"/>
+        <p name="shadowWidthA" value="5"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="8"/>
+        <p name="panelColor" value="#EFEFEF"/>
+        <p name="panelStyle" value="Wide L"/>
+        <p name="panelHeight" value="40"/>
+        <p name="panelOpacity" value="100"/>
+        <p name="buttonColor" value="#004A97"/>
+        <p name="buttonStyle" value="Fill Light"/>
+        <p name="buttonRadius" value="10"/>
+        <p name="spreadColor" value="#FFFFFF"/>
+        <p name="spreadStyle" value="Blur"/>
+        <p name="spreadWidth" value="4"/>
+        <p name="glowColor" value="#F7B000"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#7F7F7F"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="40"/>
+        <p name="lowerColor" value="#7F7F7F"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="26"/>
+        <p name="frameColorB" value="#0000FF"/>
+        <p name="frameStyleB" value="None"/>
+        <p name="frameWidthB" value="10"/>
+        <p name="shapeColorB" value="#FFFFFF"/>
+        <p name="shapeStyleB" value="Round px"/>
+        <p name="shapeRadiusB" value="8"/>
+        <p name="matColorB" value="#FFFFFF"/>
+        <p name="matStyleB" value="None"/>
+        <p name="matWidthB" value="10"/>
+        <p name="edgeColorB" value="#000000"/>
+        <p name="edgeStyleB" value="None"/>
+        <p name="edgeWidthB" value="2"/>
+        <p name="revealColorB" value="#FFFFFF"/>
+        <p name="revealStyleB" value="None"/>
+        <p name="revealWidthB" value="2"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="None"/>
+        <p name="shadowWidthB" value="10"/>
+        <p name="spaceColorB" value="#FFFFFF"/>
+        <p name="spaceStyleB" value="Clear"/>
+        <p name="spaceWidthB" value="10"/>
+
+    </option>
+
+</theme>
+
+```
+
+### TV Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="true"/>
+        <p name="padding" value="10"/>
+        <p name="align" value="Center"/>
+        <p name="refHeight" value="200"/>
+        <p name="grid" value="1"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#976A00"/>
+        <p name="footerStyle" value="Bold M"/>
+        <p name="footerHeight" value="50"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#976A00"/>
+        <p name="frameStyleA" value="Outset"/>
+        <p name="frameWidthA" value="15"/>
+        <p name="shapeColorA" value="#600000"/>
+        <p name="shapeStyleA" value="Inner px"/>
+        <p name="shapeRadiusA" value="20"/>
+        <p name="matColorA" value="#EFA800"/>
+        <p name="matStyleA" value="Grid A"/>
+        <p name="matWidthA" value="30"/>
+        <p name="edgeColorA" value="#DF7E00"/>
+        <p name="edgeStyleA" value="Inset"/>
+        <p name="edgeWidthA" value="5"/>
+        <p name="revealColorA" value="#2F2F2F"/>
+        <p name="revealStyleA" value="Solid"/>
+        <p name="revealWidthA" value="5"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="None"/>
+        <p name="shadowWidthA" value="20"/>
+        <p name="spaceColorA" value="#4F4F4F"/>
+        <p name="spaceStyleA" value="Solid"/>
+        <p name="spaceWidthA" value="10"/>
+        <p name="panelColor" value="#EFA800"/>
+        <p name="panelStyle" value="Slim L"/>
+        <p name="panelHeight" value="32"/>
+        <p name="panelOpacity" value="100"/>
+        <p name="buttonColor" value="#600000"/>
+        <p name="buttonStyle" value="Fill Bare"/>
+        <p name="buttonRadius" value="50"/>
+        <p name="spreadColor" value="#600000"/>
+        <p name="spreadStyle" value="Blur"/>
+        <p name="spreadWidth" value="4"/>
+        <p name="glowColor" value="#00FF00"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#600000"/>
+        <p name="upperStyle" value="Bold M"/>
+        <p name="upperHeight" value="30"/>
+        <p name="lowerColor" value="#600000"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="26"/>
+        <p name="frameColorB" value="#976A00"/>
+        <p name="frameStyleB" value="Outset"/>
+        <p name="frameWidthB" value="10"/>
+        <p name="shapeColorB" value="#600000"/>
+        <p name="shapeStyleB" value="Inner px"/>
+        <p name="shapeRadiusB" value="20"/>
+        <p name="matColorB" value="#EFA800"/>
+        <p name="matStyleB" value="Grid A"/>
+        <p name="matWidthB" value="20"/>
+        <p name="edgeColorB" value="#DF7E00"/>
+        <p name="edgeStyleB" value="Inset"/>
+        <p name="edgeWidthB" value="5"/>
+        <p name="revealColorB" value="#2F2F2F"/>
+        <p name="revealStyleB" value="Solid"/>
+        <p name="revealWidthB" value="5"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="None"/>
+        <p name="shadowWidthB" value="20"/>
+        <p name="spaceColorB" value="#A7A7A7"/>
+        <p name="spaceStyleB" value="Solid"/>
+        <p name="spaceWidthB" value="10"/>
+
+    </option>
+
+</theme>
+
+```
+
+### Renaissance Theme
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<theme forced="false">
+
+    <option name="Exported">
+
+        <p name="cacheDeferTime" value="4000000"/>
+        <p name="showLoadingDelay" value="3000"/>
+        <p name="useImageProxy" value="true"/>
+        <p name="captureKeys" value="true"/>
+        <p name="cleanCaption" value="true"/>
+        <p name="cleanTitle" value="true"/>
+        <p name="langHelp" value="Help"/>
+        <p name="langClose" value="Close"/>
+        <p name="langFirst" value="First"/>
+        <p name="langLast" value="Last"/>
+        <p name="langPrevious" value="Previous"/>
+        <p name="langNext" value="Next"/>
+        <p name="langSkipBack" value="Skip Back"/>
+        <p name="langSkipAhead" value="Skip Ahead"/>
+        <p name="langViewMore" value="View More"/>
+        <p name="langViewNext" value="View Next"/>
+        <p name="langReadMore" value="Read More"/>
+        <p name="langLoading" value="Loading"/>
+        <p name="cabSource" default="photos"/>
+        <p name="noSlides" value="false"/>
+        <p name="noSymbols" value="false"/>
+        <p name="padding" value="0"/>
+        <p name="align" value="Left"/>
+        <p name="refHeight" value="400"/>
+        <p name="grid" value="1,2,3"/>
+        <p name="wrap" value="false"/>
+        <p name="linkNew" value="false"/>
+        <p name="layout" value="Exact"/>
+        <p name="footerColor" value="#A77A00"/>
+        <p name="footerStyle" value="Normal M"/>
+        <p name="footerHeight" value="25"/>
+        <p name="hoverColor" value="#FF0000"/>
+        <p name="frameColorA" value="#A77A00"/>
+        <p name="frameStyleA" value="Solid"/>
+        <p name="frameWidthA" value="1"/>
+        <p name="shapeColorA" value="#FFFFFF"/>
+        <p name="shapeStyleA" value="Rect"/>
+        <p name="shapeRadiusA" value="50"/>
+        <p name="matColorA" value="#FFFFFF"/>
+        <p name="matStyleA" value="None"/>
+        <p name="matWidthA" value="5"/>
+        <p name="edgeColorA" value="#000000"/>
+        <p name="edgeStyleA" value="None"/>
+        <p name="edgeWidthA" value="1"/>
+        <p name="revealColorA" value="#FFFFFF"/>
+        <p name="revealStyleA" value="None"/>
+        <p name="revealWidthA" value="1"/>
+        <p name="shadowColorA" value="#888888"/>
+        <p name="shadowStyleA" value="None"/>
+        <p name="shadowWidthA" value="5"/>
+        <p name="spaceColorA" value="#FFFFFF"/>
+        <p name="spaceStyleA" value="Clear"/>
+        <p name="spaceWidthA" value="5"/>
+        <p name="panelColor" value="#000000"/>
+        <p name="panelStyle" value="Wide L"/>
+        <p name="panelHeight" value="36"/>
+        <p name="panelOpacity" value="40"/>
+        <p name="buttonColor" value="#DFB200"/>
+        <p name="buttonStyle" value="Bare"/>
+        <p name="buttonRadius" value="50"/>
+        <p name="spreadColor" value="#A77A00"/>
+        <p name="spreadStyle" value="Blur"/>
+        <p name="spreadWidth" value="8"/>
+        <p name="glowColor" value="#00FF00"/>
+        <p name="beckonColor" value="#FF0000"/>
+        <p name="upperColor" value="#A77A00"/>
+        <p name="upperStyle" value="Normal M"/>
+        <p name="upperHeight" value="34"/>
+        <p name="lowerColor" value="#685600"/>
+        <p name="lowerStyle" value="Normal M"/>
+        <p name="lowerHeight" value="26"/>
+        <p name="frameColorB" value="#685600"/>
+        <p name="frameStyleB" value="Ridge"/>
+        <p name="frameWidthB" value="20"/>
+        <p name="shapeColorB" value="#A77A00"/>
+        <p name="shapeStyleB" value="Rect"/>
+        <p name="shapeRadiusB" value="50"/>
+        <p name="matColorB" value="#685600"/>
+        <p name="matStyleB" value="Grid A"/>
+        <p name="matWidthB" value="8"/>
+        <p name="edgeColorB" value="#685600"/>
+        <p name="edgeStyleB" value="Inset"/>
+        <p name="edgeWidthB" value="5"/>
+        <p name="revealColorB" value="#A77A00"/>
+        <p name="revealStyleB" value="Solid"/>
+        <p name="revealWidthB" value="5"/>
+        <p name="shadowColorB" value="#888888"/>
+        <p name="shadowStyleB" value="Haze T"/>
+        <p name="shadowWidthB" value="20"/>
         <p name="spaceColorB" value="#FFFFFF"/>
         <p name="spaceStyleB" value="Clear"/>
         <p name="spaceWidthB" value="10"/>
