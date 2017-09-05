@@ -7,7 +7,6 @@ Originated: 2009-11-23; last updated: 2016-07-02
 ## Contents
 
 * [Introduction]
-  * [Background]
   * [Features]
   
 * [Site Preparation]
@@ -198,8 +197,6 @@ Originated: 2009-11-23; last updated: 2016-07-02
 ------------------------------------------------------------------------------------------------------------------------------------
 
 # Introduction
-
-## Background
 
 Although images are ubiquitous in modern Web sites, they are increasingly
 prone to casual embedding which is a particular bugbear of Content
@@ -2302,7 +2299,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 [REFERENCES]: #
 
 [Introduction]: #introduction
-[Background]: #background
 [Features]: #features
 [Site Preparation]: #site-preparation
 [Gadget Hosting]: #gadget-hosting
