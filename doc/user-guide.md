@@ -2475,7 +2475,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Sample XML Export]: #sample-xml-export
 [Errors]: #errors
 [Screenshots]: #screenshots
-[Champion Thoroughbreds]: #classic-thoroughbreds
+[Champion Thoroughbreds]: #champion-thoroughbreds
 [Churchillian Players]: #churchillian-players
 [Exotic Fish]: #exotic-fish
 [Hubble Discoveries]: #hubble-discoveries
