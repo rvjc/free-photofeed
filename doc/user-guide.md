@@ -188,7 +188,7 @@ Originated: 2009-11-23; last updated: 2016-07-02
     * [Nautical Theme]
     * [RAF Theme]
     * [Renaissance Theme]
-    * [Screenshots Theme]
+    * [Screenshot Theme]
     * [TV Theme]
     * [Void Theme]
   * [Errors]
@@ -3360,7 +3360,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Nautical Theme]: #nautical-theme
 [RAF Theme]: #raf-theme
 [Renaissance Theme]: #renaissance-theme
-[Screenshots Theme]: #screenshots-theme
+[Screenshot Theme]: #screenshot-theme
 [TV Theme]: #tv-theme
 [Void Theme]: #void-theme
 [Errors]: #errors
