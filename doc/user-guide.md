@@ -7,7 +7,8 @@ Originated: 2009-11-23; last updated: 2016-07-02
 ## Contents
 
 * [Introduction]
-  * [Features]
+
+* [Features]
   
 * [Site Preparation]
   * [Gadget Hosting]
@@ -247,7 +248,7 @@ supported, although photographic images will account for the majority of
 use cases. In this guide, the terms *photo* and *image* are interchangable.
 
 
-## Features
+# Features
 
 The Photofeed gadget was developed for [Google Sites] to provide a fast and
 versatile front-end for image back-ends based on local or foreign file
