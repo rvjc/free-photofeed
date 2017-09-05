@@ -2141,29 +2141,27 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ## Screenshots
 
-### Champion Thoroughbreds
-
-### Chanmpion Thoroughbreds General Configuration
+### Champion Thoroughbreds - General Configuration
 
 ![](screenshots/champion-thoroughbreds/config/1.png)
 
-### Chanmpion Thoroughbreds Selection Configuration
+### Champion Thoroughbreds - Selection Configuration
 
 ![](screenshots/champion-thoroughbreds/config/2.png)
 
-### Chanmpion Thoroughbreds Slide Configuration
+### Champion Thoroughbreds - Slide Configuration
 
 ![](screenshots/champion-thoroughbreds/config/3.png)
 
-### Chanmpion Thoroughbreds Standard Configuration
+### Champion Thoroughbreds - Standard Configuration
 
 ![](screenshots/champion-thoroughbreds/config/4.png)
 
-### Chanmpion Thoroughbreds Selection View
+### Champion Thoroughbreds - Selection View
 
 ![](screenshots/champion-thoroughbreds/views/a.png)
 
-### Chanmpion Thoroughbreds Slide View
+### Champion Thoroughbreds - Slide View
 
 ![](screenshots/champion-thoroughbreds/views/b.png)
 
