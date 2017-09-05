@@ -3057,129 +3057,89 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ### Churchillian Players
 
-![](screenshots/churchillian-players/config/1.png)
-
-![](screenshots/churchillian-players/config/2.png)
-
-![](screenshots/churchillian-players/config/3.png)
-
-![](screenshots/churchillian-players/config/4.png)
-
-![](screenshots/churchillian-players/views/a.png)
-
-![](screenshots/churchillian-players/views/b.png)
+![][Churchillian Players General Configuration]
+![][Churchillian Players Selection Configuration]
+![][Churchillian Players Slide Configuration]
+![][Churchillian Players Standard Configuration]
+![][Churchillian Players Selection View]
+![][Churchillian Players Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Exotic Fish
 
-![](screenshots/exotic-fish/config/1.png)
-
-![](screenshots/exotic-fish/config/2.png)
-
-![](screenshots/exotic-fish/config/3.png)
-
-![](screenshots/exotic-fish/config/4.png)
-
-![](screenshots/exotic-fish/views/a.png)
-
-![](screenshots/exotic-fish/views/b.png)
+![][Exotic Fish General Configuration]
+![][Exotic Fish Selection Configuration]
+![][Exotic Fish Slide Configuration]
+![][Exotic Fish Standard Configuration]
+![][Exotic Fish Selection View]
+![][Exotic Fish Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Hubble Discoveries
 
-![](screenshots/hubble-discoveries/config/1.png)
-
-![](screenshots/hubble-discoveries/config/2.png)
-
-![](screenshots/hubble-discoveries/config/3.png)
-
-![](screenshots/hubble-discoveries/config/4.png)
-
-![](screenshots/hubble-discoveries/views/a.png)
-
-![](screenshots/hubble-discoveries/views/b.png)
+![][Hubble Discoveries General Configuration]
+![][Hubble Discoveries Selection Configuration]
+![][Hubble Discoveries Slide Configuration]
+![][Hubble Discoveries Standard Configuration]
+![][Hubble Discoveries Selection View]
+![][Hubble Discoveries Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Hurling Legends
 
-![](screenshots/hurling-legends/config/1.png)
-
-![](screenshots/hurling-legends/config/2.png)
-
-![](screenshots/hurling-legends/config/3.png)
-
-![](screenshots/hurling-legends/config/4.png)
-
-![](screenshots/hurling-legends/views/a.png)
-
-![](screenshots/hurling-legends/views/b.png)
+![][Hurling Legends General Configuration]
+![][Hurling Legends Selection Configuration]
+![][Hurling Legends Slide Configuration]
+![][Hurling Legends Standard Configuration]
+![][Hurling Legends Selection View]
+![][Hurling Legends Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Luminaries of Science
 
-![](screenshots/luminaries-of-science/config/1.png)
-
-![](screenshots/luminaries-of-science/config/2.png)
-
-![](screenshots/luminaries-of-science/config/3.png)
-
-![](screenshots/luminaries-of-science/config/4.png)
-
-![](screenshots/luminaries-of-science/views/a.png)
-
-![](screenshots/luminaries-of-science/views/b.png)
+![][Luminaries of Science General Configuration]
+![][Luminaries of Science Selection Configuration]
+![][Luminaries of Science Slide Configuration]
+![][Luminaries of Science Standard Configuration]
+![][Luminaries of Science Selection View]
+![][Luminaries of Science Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Mandelbrot Universe
 
-![](screenshots/mandelbrot-universe/config/1.png)
-
-![](screenshots/mandelbrot-universe/config/2.png)
-
-![](screenshots/mandelbrot-universe/config/3.png)
-
-![](screenshots/mandelbrot-universe/config/4.png)
-
-![](screenshots/mandelbrot-universe/views/a.png)
-
-![](screenshots/mandelbrot-universe/views/b.png)
+![][Mandelbrot Universe General Configuration]
+![][Mandelbrot Universe Selection Configuration]
+![][Mandelbrot Universe Slide Configuration]
+![][Mandelbrot Universe Standard Configuration]
+![][Mandelbrot Universe Selection View]
+![][Mandelbrot Universe Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### TV Classics
 
-![](screenshots/tv-classics/config/1.png)
-
-![](screenshots/tv-classics/config/2.png)
-
-![](screenshots/tv-classics/config/3.png)
-
-![](screenshots/tv-classics/config/4.png)
-
-![](screenshots/tv-classics/views/a.png)
-
-![](screenshots/tv-classics/views/b.png)
+![][TV Classics General Configuration]
+![][TV Classics Selection Configuration]
+![][TV Classics Slide Configuration]
+![][TV Classics Standard Configuration]
+![][TV Classics Selection View]
+![][TV Classics Slide View]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Works of Caravaggio
 
-![](screenshots/works-of-caravaggio/config/1.png)
-
-![](screenshots/works-of-caravaggio/config/2.png)
-
-![](screenshots/works-of-caravaggio/config/3.png)
-
-![](screenshots/works-of-caravaggio/config/4.png)
-
-![](screenshots/works-of-caravaggio/views/a.png)
-
-![](screenshots/works-of-caravaggio/views/b.png)
+![][Works of Caravaggio General Configuration]
+![][Works of Caravaggio Selection Configuration]
+![][Works of Caravaggio Slide Configuration]
+![][Works of Caravaggio Standard Configuration]
+![][Works of Caravaggio Selection View]
+![][Works of Caravaggio Slide View]
 
 
 [REFERENCES]: #
