@@ -208,7 +208,6 @@ Originated: 2009-11-23; last updated: 2016-07-02
     * [TV Classics]
     * [Works of Caravaggio]
     
-------------------------------------------------------------------------------------------------------------------------------------
 
 # Introduction
 
@@ -249,7 +248,6 @@ stakes. The gadget name is an historical artefact. All image types are
 supported, although photographic images will account for the majority of
 use cases. In this guide, the terms *photo* and *image* are interchangable.
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 # Features
 
@@ -296,7 +294,6 @@ cabinets.
 * Gadget code and build tools are open-sourced for end-to-end control and
   peace-of-mind.
   
-------------------------------------------------------------------------------------------------------------------------------------
 
 # Site Preparation
 
@@ -473,7 +470,6 @@ Our [Classic Google Sites Demo] showcases a sample working Photofeed setup.
 You can traverse the relevant directories and pages on this site via the
 sitemap link.
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 # Image Management
 
@@ -583,7 +579,6 @@ images are likely to be displayed in multiple selections or slide shows,
 captioning should not be done in a piecemeal fashion — either caption all of
 the images within a cabinet or none.
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 # Gadget Usage
 
@@ -880,7 +875,6 @@ dark backgrounds. For more interesting configuration samples, check out these
 > will pre-empt a well-known [Google Sites] dynamic-height adjustment issue
 > which does *not* arise during normal page viewing.
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 # Configuration Reference
 
@@ -1875,8 +1869,6 @@ This determines if leading cabinet title text behind a colon is ignored,
 e.g. "My Custom Info: My Title" would be interpreted as "My Title".
 It defaults to *true*.
 
-------------------------------------------------------------------------------------------------------------------------------------
-
 # Appendices
 
 ## Themeable Parameters
@@ -1979,7 +1971,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 *Note: Decoration parameters have an A suffix for [Selection View] and a B suffix for [Slide View]*
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 ## Sample XML Exports
 
@@ -2964,7 +2955,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ```
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 ## Errors
 
@@ -3042,7 +3032,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 * Bad photo cabinet index items feed: expected single entry for sites page
 * Empty Photo Cabinet
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 ## Screenshots
 
@@ -3055,8 +3044,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Champion Thoroughbreds Selection View]
 ![][Champion Thoroughbreds Slide View]
 
-------------------------------------------------------------------------------------------------------------------------------------
-
 ### Churchillian Players
 
 ![][Churchillian Players General Configuration]
@@ -3065,8 +3052,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Churchillian Players Standard Configuration]
 ![][Churchillian Players Selection View]
 ![][Churchillian Players Slide View]
-
-------------------------------------------------------------------------------------------------------------------------------------
 
 ### Exotic Fish
 
@@ -3077,8 +3062,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Exotic Fish Selection View]
 ![][Exotic Fish Slide View]
 
-------------------------------------------------------------------------------------------------------------------------------------
-
 ### Hubble Discoveries
 
 ![][Hubble Discoveries General Configuration]
@@ -3087,8 +3070,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Hubble Discoveries Standard Configuration]
 ![][Hubble Discoveries Selection View]
 ![][Hubble Discoveries Slide View]
-
-------------------------------------------------------------------------------------------------------------------------------------
 
 ### Hurling Legends
 
@@ -3099,8 +3080,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Hurling Legends Selection View]
 ![][Hurling Legends Slide View]
 
-------------------------------------------------------------------------------------------------------------------------------------
-
 ### Luminaries of Science
 
 ![][Luminaries of Science General Configuration]
@@ -3109,8 +3088,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Luminaries of Science Standard Configuration]
 ![][Luminaries of Science Selection View]
 ![][Luminaries of Science Slide View]
-
-------------------------------------------------------------------------------------------------------------------------------------
 
 ### Mandelbrot Universe
 
@@ -3121,8 +3098,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][Mandelbrot Universe Selection View]
 ![][Mandelbrot Universe Slide View]
 
-------------------------------------------------------------------------------------------------------------------------------------
-
 ### TV Classics
 
 ![][TV Classics General Configuration]
@@ -3131,8 +3106,6 @@ Parameter            | Variable Name    | Default         | Min               | 
 ![][TV Classics Standard Configuration]
 ![][TV Classics Selection View]
 ![][TV Classics Slide View]
-
-------------------------------------------------------------------------------------------------------------------------------------
 
 ### Works of Caravaggio
 
