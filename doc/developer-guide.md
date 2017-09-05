@@ -51,7 +51,7 @@ debug builds because the following additional steps are performed:
 
 The following FART.EXE warning can be ignored during production builds:
 
-Warning: unrecognized character escape sequence: \/
+*Warning: unrecognized character escape sequence: \/*
 
 
 ## Release Checks
@@ -59,9 +59,9 @@ Warning: unrecognized character escape sequence: \/
 Before releasing a production build, check the following validation reports in
 the root directory:
 
-photofeed-common.htm
-photofeed-config.htm
-photofeed-home.htm
+* photofeed-common.htm
+* photofeed-config.htm
+* photofeed-home.htm
 
 Some warnings are subjective e.g. unnecessary semi-colons. However, others may
 require your attention. Pay particular attention to undeclared local variables
@@ -75,13 +75,13 @@ The Photofeed gadget has evolved from a simple front-end to a sophisticated
 image rendering and management tool during a particularly chaotic phase in the
 evolution of Web technologies. This was characterised by:
 
-- The disruptive effects of the Gadget craze
-- Incessant tinkering with the Gadget, Feed and Image Proxy APIs
-- Lingering Google Sites issues without satisfactory resolutions
-- Ongoing cross-browser issues
-- Piecemeal browser adoption of new HTML, CSS and Javascript standards
-- The demise of IE under the weight of legacy bloat and incompatibilities
-- The rise of leaner and meaner browsers more aligned with open standards.
+* The disruptive effects of the Gadget craze
+* Incessant tinkering with the Gadget, Feed and Image Proxy APIs
+* Lingering Google Sites issues without satisfactory resolutions
+* Ongoing cross-browser issues
+* Piecemeal browser adoption of new HTML, CSS and Javascript standards
+* The demise of IE under the weight of legacy bloat and incompatibilities
+* The rise of leaner and meaner browsers more aligned with open standards.
 
 The Photofeed code reflects this chaotic heritage and would have a completely
 different complexion if it were written from scratch today. So, please bear
