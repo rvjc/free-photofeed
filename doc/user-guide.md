@@ -2165,6 +2165,30 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ![](screenshots/champion-thoroughbreds/views/b.png)
 
+### Churchillian Players - General Configuration
+
+![](screenshots/churchillian-players/config/1.png)
+
+### Churchillian Players - Selection Configuration
+
+![](screenshots/churchillian-players/config/2.png)
+
+### Churchillian Players - Slide Configuration
+
+![](screenshots/churchillian-players/config/3.png)
+
+### Churchillian Players - Standard Configuration
+
+![](screenshots/churchillian-players/config/4.png)
+
+### Churchillian Players - Selection View
+
+![](screenshots/churchillian-players/views/a.png)
+
+### Churchillian Players - Slide View
+
+![](screenshots/churchillian-players/views/b.png)
+
 [REFERENCES]: #
 
 [Introduction]: #introduction
