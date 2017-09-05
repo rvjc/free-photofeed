@@ -399,8 +399,8 @@ customisation.
 
 This template is easily extended to suit your needs by familiarising yourself
 with a few basic elements and attributes. Useful guidance can be gleaned from
-the [Sample XML Export] which references all [Themeable Parameters] and thus
-represents the ultimate in theme control. In practice, we rarely need to go to
+the [Sample XML Exports] which reference all [Themeable Parameters] and thus
+represent the ultimate in theme control. In practice, we rarely need to go to
 such extremes.
 
 ### Theme Element
@@ -1022,7 +1022,7 @@ the colour controls by clicking on the associated *Apply Swatch* button.
 
 This button generates a theme-ready XML export of the current configuration in
 a scrollable pop-up window. Portions of this output can be copied and pasted
-into a [Theme File]. The [Sample XML Export] was generated using this feature
+into a [Theme File]. The [Sample XML Exports] were generated using this feature
 which is indispensible for theme testing.
 
 #### Refresh
