@@ -2146,23 +2146,25 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ## Screenshots
 
-### Champion Thoroughbreds - General Configuration
+### Champion Thoroughbreds
+
+#### Champion Thoroughbreds - General Configuration
 
 ![](screenshots/champion-thoroughbreds/config/1.png)
 
-### Champion Thoroughbreds - Selection Configuration
+#### Champion Thoroughbreds - Selection Configuration
 
 ![](screenshots/champion-thoroughbreds/config/2.png)
 
-### Champion Thoroughbreds - Slide Configuration
+#### Champion Thoroughbreds - Slide Configuration
 
 ![](screenshots/champion-thoroughbreds/config/3.png)
 
-### Champion Thoroughbreds - Standard Configuration
+#### Champion Thoroughbreds - Standard Configuration
 
 ![](screenshots/champion-thoroughbreds/config/4.png)
 
-### Champion Thoroughbreds - Selection View
+#### Champion Thoroughbreds - Selection View
 
 ![](screenshots/champion-thoroughbreds/views/a.png)
 
@@ -2172,27 +2174,29 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-### Churchillian Players - General Configuration
+### Churchillian Players
+
+#### Churchillian Players - General Configuration
 
 ![](screenshots/churchillian-players/config/1.png)
 
-### Churchillian Players - Selection Configuration
+#### Churchillian Players - Selection Configuration
 
 ![](screenshots/churchillian-players/config/2.png)
 
-### Churchillian Players - Slide Configuration
+#### Churchillian Players - Slide Configuration
 
 ![](screenshots/churchillian-players/config/3.png)
 
-### Churchillian Players - Standard Configuration
+#### Churchillian Players - Standard Configuration
 
 ![](screenshots/churchillian-players/config/4.png)
 
-### Churchillian Players - Selection View
+#### Churchillian Players - Selection View
 
 ![](screenshots/churchillian-players/views/a.png)
 
-### Churchillian Players - Slide View
+#### Churchillian Players - Slide View
 
 ![](screenshots/churchillian-players/views/b.png)
 
