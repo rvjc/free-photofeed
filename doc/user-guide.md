@@ -247,6 +247,7 @@ stakes. The gadget name is an historical artefact. All image types are
 supported, although photographic images will account for the majority of
 use cases. In this guide, the terms *photo* and *image* are interchangable.
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 # Features
 
@@ -293,6 +294,7 @@ cabinets.
 * Gadget code and build tools are open-sourced for end-to-end control and
   peace-of-mind.
   
+------------------------------------------------------------------------------------------------------------------------------------
 
 # Site Preparation
 
@@ -469,6 +471,7 @@ Our [Classic Google Sites Demo] showcases a sample working Photofeed setup.
 You can traverse the relevant directories and pages on this site via the
 sitemap link.
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 # Image Management
 
@@ -578,6 +581,7 @@ images are likely to be displayed in multiple selections or slide shows,
 captioning should not be done in a piecemeal fashion — either caption all of
 the images within a cabinet or none.
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 # Gadget Usage
 
@@ -874,6 +878,7 @@ dark backgrounds. For more interesting configuration samples, check out these
 > will pre-empt a well-known [Google Sites] dynamic-height adjustment issue
 > which does *not* arise during normal page viewing.
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 # Configuration Reference
 
