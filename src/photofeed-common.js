@@ -2694,7 +2694,7 @@ Cfg.prototype.initParam = function(flag, pName, desc, type, def, min, max, minSi
 	// If this is part of a re-initialisation, need to delete straggling
 	// property or it will cause reserved name assertion below to fail
 	
-	delete this[pName];
+	delete this[pName]; 
 		
 	ERR.CHK(!isObjectMember(pName, this), "Cfg.initParam: Reserved name", pName);
 	ERR.CHK(minSize === undefined || minSize >= 0, "Cfg.initParam: Array Min is Negative", pName);
