@@ -182,9 +182,19 @@ Originated: 2009-11-23; last updated: 2016-07-02
 
 * [Appendices]
   * [Themeable Parameters]
-  * [Sample XML Export]
+  * [Sample XML Exports]
   * [Errors]
   * [Screenshots]
+    * [Champion Thoroughbreds]
+    * [Churchillian Players]
+    * [Exotic Fish]
+    * [Hubble Discoveries]
+    * [Hurling Legends]
+    * [Luminaries of Science]
+    * [Mandelbrot Universe]
+    * [TV Classics]
+    * [Works of Caravaggio]
+    
 
 
 # Introduction
@@ -2465,6 +2475,15 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Sample XML Export]: #sample-xml-export
 [Errors]: #errors
 [Screenshots]: #screenshots
+[Champion Thoroughbreds]: #classic-thoroughbreds
+[Churchillian Players]: #churchillian-players
+[Exotic Fish]: #exotic-fish
+[Hubble Discoveries]: #hubble-discoveries
+[Hurling Legends]: #hurling-legends
+[Luminaries of Science]: #luminaries-of-science
+[Mandelbrot Universe]: #madelbrot-universe
+[TV Classics]: #tv-classics
+[Works of Caravaggio]: #works-of-caravaggio
 
 [Photofeed Gadget Documentation]: .\doc
 [Photofeed Gadget Developer Guide]: developer-guide.md
