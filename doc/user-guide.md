@@ -3046,7 +3046,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 
 ### Champion Thoroughbreds
 
-![][Champion Thoroughbreds Config 1]
+![][Champion Thoroughbreds General Configuration]
 
 ![](screenshots/champion-thoroughbreds/config/2.png)
 
@@ -3386,7 +3386,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Photofeed Gadget Documentation]: .\doc
 [Photofeed Gadget Developer Guide]: developer-guide.md
 
-[Champion Thoroughbreds 1]: screenshots/champion-thoroughbreds/config/1.png)
+[Champion Thoroughbreds General Configuration]: screenshots/champion-thoroughbreds/config/1.png
 
 [Photofeed Gadget GitHub Repository]: https://github.com/rvjc/photofeed
 [Classic Google Sites Demo]: http://cgs.rvjc.com
