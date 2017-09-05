@@ -1875,8 +1875,8 @@ It defaults to *true*.
 
 Parameter            | Variable Name    | Default         | Min               | Max               | Note
 :------------------- | :--------------- | :-------------- | :---------------- | :---------------- | :-------------------------------
-[Cache Defer Time]   | cacheDeferTime   | 4000000         | 0                 | 7200000           | mS (default 4 hours)
-[Show Loading Delay] | showLoadingDelay | 1000            | 0                 | 10000             | mS (default 1 second)
+[Cache Defer Time]   | cacheDeferTime   | 4000000         | 0                 | 7200000           | mS (default = 4 hours)
+[Show Loading Delay] | showLoadingDelay | 3000            | 1000              | 10000             | mS (default = 3 seconds)
 [Use Image Proxy]    | useImageProxy    | true            | -                 | -                 |
 [Capture Keys]       | captureKeys      | true            | -                 | -                 |
 [Clean Caption]      | cleanCaption     | true            | -                 | -                 |
@@ -1892,7 +1892,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Lang View More]     | langViewMore     | "View More"     | -                 | -                 |
 [Lang Read More]     | langReadMore     | "Read More"     | -                 | -                 |
 [Lang Loading]       | langLoading      | "Loading"       | -                 | -                 |
-[Cabinet Source]     | cabSource        | "/photos"       | -                 | -                 | Themable default
+[Cabinet Source]     | cabSource        | "/photos"       | -                 | -                 | Only default is themable
 [No Slides]          | noSlides         | false           | -                 | -                 |
 [No Symbols]         | noSymbols        | false           | -                 | -                 |
 [Padding]            | padding          | 0               | 0                 | 20                |
