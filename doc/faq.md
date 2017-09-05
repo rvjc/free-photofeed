@@ -1,12 +1,7 @@
 # Photofeed Gadget Frequently Asked Questions
 
-By RVJ Callanan
 
-Originated: 2009-11-23; last updated: 2016-07-02
-
-------------------------------------------------------------------------------
-
-# Why is the selection footer blank even though it is enabled?
+## Why is the selection footer blank even though it is enabled?
 
 This is expected behaviour when there are too many characters to fit in the
 available footer space. Rather than truncating the content, it is blanked out
@@ -34,10 +29,8 @@ title, photo caption or custom text. So reasonable limits should be imposed
 on the number of characters used by each of these elements. The hard limits
 have to cater for exceptional situations and are usually far too generous.
 
-------------------------------------------------------------------------------
 
-
-# I can't find the latest gadget version in Google's public repository?
+## I can't find the latest gadget version in Google's public repository?
 
 As of mid-2016, new submissions are no longer being accepted on the public
 gadget repository. Other publishing tools such as the Google Gadget Editor and
@@ -65,5 +58,3 @@ option in the INSERT -> MORE GADGETS dialog. You are free to link to our
 Public URL which is used by our demo site at http://cgs.rvjc.com and will
 remain viable for the foreseeable future. However, self-hosting is always
 preferred for the reasons outlined above.
-
-------------------------------------------------------------------------------
