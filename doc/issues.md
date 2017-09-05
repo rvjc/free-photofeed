@@ -14,12 +14,11 @@ This problem does **not** affect normal page viewing.
 
 This generic problem with embedded IFRAME content has been reported elsewhere
 in a number of guises. Ironically, for Google Sites users, it has only been
-noticed in Chrome (Windows version). Other mainstream browsers such as IE,
-Firefox, Safari, Opera and non-Windows versions of Chrome do not exhibit this
-problem. It appears to be an IFRAME caching bug where only the LAST gadget
-instance displays correctly when you navigate to a previously viewed page using
-the back or forward button. It does NOT arise on pages with single gadget
-instances.
+noticed in Chrome. Other mainstream browsers such as IE, Firefox, Safari and
+Opera do not exhibit this problem. It appears to be an IFRAME caching bug on
+pages containing multiple gadget instances. If you navigate to a previously
+viewed page using the *Back* or *Forward* button, only the LAST gadget instance
+displays correctly. It does NOT arise on pages with single gadget instances.
 
 Chrome should either reproduce the cached IFRAME state or reload its cached
 source, but, in some cases, it does neither. The gadget frame is present and
