@@ -2481,7 +2481,7 @@ Parameter            | Variable Name    | Default         | Min               | 
 [Hubble Discoveries]: #hubble-discoveries
 [Hurling Legends]: #hurling-legends
 [Luminaries of Science]: #luminaries-of-science
-[Mandelbrot Universe]: #madelbrot-universe
+[Mandelbrot Universe]: #mandelbrot-universe
 [TV Classics]: #tv-classics
 [Works of Caravaggio]: #works-of-caravaggio
 
