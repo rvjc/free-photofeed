@@ -1,12 +1,7 @@
 # Photofeed Gadget Issues and Workarounds
 
-By RVJ Callanan
 
-Originated: 2009-11-23; last updated: 2016-07-02
-
-------------------------------------------------------------------------------
-
-# Dynamic height adjustment failure following edit/save cycle.
+## Dynamic height adjustment failure following edit/save cycle.
 
 This is a well-known Classic Google Sites issue which affects all gadgets that
 use the Gadget API's dynamic height feature. However, it only manifests itself
@@ -14,9 +9,8 @@ in the current browser tab/window immediately after an edit/save cycle. Normal
 dynamic height functionality can be restored by performing a page refresh (F5).
 This problem does NOT affect normal page viewing. 
 
-------------------------------------------------------------------------------
 
-# Blank content after back/forward navigation in Chrome/Windows 
+## Blank content after back/forward navigation in Chrome/Windows 
 
 This generic problem with embedded IFRAME content has been reported elsewhere
 in a number of guises. Ironically, for Google Sites users, it has only been
@@ -33,5 +27,3 @@ gadget, even the fallback "loading" status is NOT visible. The clue lies in
 the fact that the last gadget instance on the page always displays correctly.
 Until this bug is fixed by Google, it can be resolved by a page refresh (F5)
 which will successfully reload all gadget instances.
-
-------------------------------------------------------------------------------
