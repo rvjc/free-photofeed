@@ -2694,7 +2694,7 @@ Cfg.prototype.initParam = function(flag, pName, desc, type, def, min, max, minSi
 	// If this is part of a re-initialisation, need to delete straggling
 	// property or it will cause reserved name assertion below to fail
 	
-	delete this[pName];
+	delete this[pName]; 
 		
 	// (!isObjectMember(pName, this), "Cfg.initParam: Reserved name", pName);
 	// (minSize === undefined || minSize >= 0, "Cfg.initParam: Array Min is Negative", pName);
@@ -7504,7 +7504,7 @@ function Sho(divId, index, options, moveHandler, closeHandler)
 
 	html += '<div id="' + this.msgId + '" '
 		  + 'style="display:none;position:absolute;z-index:1;padding:0;'
-		  + 'left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.4);">';
+		  + 'left:0;top:0;width:100%;height:100%;overflow:auto;">';
 
 	html += '<div style="position:absolute;text-align:right;border-radius:4px;'
 		  + 'box-shadow:5px 5px 5px 0px ' + this.options.edgeColor + ';'
