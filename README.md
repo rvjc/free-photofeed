@@ -1,4 +1,4 @@
-# Free Photofeed
+# Photofeed Gadget
 
 ![](doc/screenshots/photofeed.png)
 
