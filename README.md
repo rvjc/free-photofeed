@@ -1,4 +1,4 @@
-# Photofeed Gadget for Google Sites
+# Free Photofeed
 
 ![](doc/screenshots/photofeed.png)
 
